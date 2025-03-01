@@ -1,4 +1,4 @@
-package ru.lemoncraft.thalrathis.item.tools;
+package ru.lemoncraft.thalrathis.common.item.tools;
 
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.item.Items;

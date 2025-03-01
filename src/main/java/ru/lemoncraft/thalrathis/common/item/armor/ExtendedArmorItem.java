@@ -77,7 +77,6 @@ public abstract class ExtendedArmorItem extends ArmorItem implements GeoItem {
     }
 
     private PlayState predicate(AnimationState<ExtendedArmorItem> extendedArmorItemAnimationState) {
-        //TODO: (1.19.4 port) look at WolfArmorItem. their predicate is way more advanced. Are we missing stuff?
         extendedArmorItemAnimationState.getController().setAnimation(RawAnimation.begin().thenLoop("idle"));
         return PlayState.CONTINUE;
     }
