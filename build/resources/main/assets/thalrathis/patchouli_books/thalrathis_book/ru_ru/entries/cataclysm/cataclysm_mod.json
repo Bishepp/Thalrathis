@@ -1,0 +1,23 @@
+{
+  "name": "Катаклизм",
+  "icon": "cataclysm:textures/item/ignitium_upgrade_smithing_template.png",
+  "category": "thalrathis:cataclysm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cataclysm is a mod that adds new dungeons to Minecraft in each of its dimensions, which offer a challenging gaming experience. Each dungeon contains a main boss fight, as well as other enemies to defeat."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By defeating them, you will earn new weapons and armor, which will help you progress not only through the rest of the dungeons, but also in your game as a whole."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "There are a total of six dungeons spread throughout the Overworld, Nether, and End, and more may be added in the future. In these locations, you can fight bosses like Ignis, Netherite Monstrosity, Leviathan, Harbinger, Ancient Remnant, and Ender Guardian."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Players can fight the bosses in whichever order they wish, although some may prove challenging. For a recommended boss order, try Netherite Monstrosity > Ender Guardian > Harbinger > Leviathan > Ancient Remnant > Ignis."
+    }
+  ]
+}

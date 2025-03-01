@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:gelidus_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Gelidus is the domain of cold, ice, and frost. Practitioners of this school can freeze their foes in place, summon blizzards, or encase their enemies in solid ice."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The mastery of Gelidus is not merely about freezing the world around them—it is the embodiment of stillness, serenity, and the power of the frozen wilderness."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The cold heart of Gelidus is both an impenetrable defense and a method of controlling the flow of time itself. Its practitioners are often patient, with an unyielding calm in the face of danger."
+    }
+  ]
+}

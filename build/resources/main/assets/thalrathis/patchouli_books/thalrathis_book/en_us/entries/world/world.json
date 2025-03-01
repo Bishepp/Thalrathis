@@ -1,0 +1,35 @@
+{
+  "name": "The Story of Thalrathis",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Thalrathis$(), a land both ancient and untamed, is a world shaped by the boundless forces of magic. It is a realm where mystical energies weave through the fabric of reality, where the very air hums with the potential of creation and destruction. In Thalrathis, magic is not simply a tool—it is the lifeblood of existence, shaping its peoples, landscapes, and even the gods themselves."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Origins of Thalrathis$() $(br2)Long ago, Thalrathis was born from the convergence of elemental forces, a collision of fire, ice, lightning, and ancient powers that spawned life in all its forms. As the world took shape, so did the first beings: those who would wield magic with grace and those who sought to harness its terrifying potential."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The earliest of these beings formed the Sixteen Schools of Magic, each representing a core force of the world. From Flamara, the essence of flame, to Obscurum, the eldritch and unknowable power of the void, each school birthed its own philosophy, powers, and followers. These ancient schools forged not only the destiny of Thalrathis’ magic but also the destinies of its people."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)The Races of Thalrathis$() $(br2)Thalrathis is home to a vast diversity of races, each with a deep connection to the world around them. The Forest Elves commune with nature, drawing power from the earth itself, while the Avian soar through the skies, guided by the winds of Aero. The Elitrians, ancient and wise, have unlocked the deepest secrets of the cosmos, while Ogres channel their primal strength through sheer willpower."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "From the mystical Moon Elves, who draw power from the celestial bodies, to the ferocious Valkyries, warriors who fight in the name of honor and courage, each race adds its own chapter to the ongoing story of Thalrathis. The Arachnids, Goblins, and Incubus each have their own dark histories, and their legacies intertwine with the great powers of the world."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)The Eternal Struggle$() $(br2)As powerful as the magic of Thalrathis is, it is also volatile. The world has been shaped by constant conflict, not only between races but also between the schools of magic themselves. The balance of power is ever-shifting, with new alliances forming and old ones breaking.\n\nThough the schools have maintained their power, the forces of Nihility and Obscurum remain ever-threatening, their practitioners searching for ways to unravel the very fabric of the world."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ancient beings, long thought to be dormant, awaken from their slumber beneath the earth, and the conflict between light and darkness grows ever more intense. As an adventurer, scholar, or seeker of power, you will find yourself caught in the web of Thalrathis’ ancient history and its ongoing struggle. Will you embrace one of the schools of magic and uncover its secrets, or will you join the ancient races in their fight to reshape the world? The choice is yours, but remember: in Thalrathis, knowledge is as dangerous as it is powerful."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/head",
+  "textures": {
+    "all": "dungeons_and_combat:block/head_skull",
+    "particle": "dungeons_and_combat:block/head_skull",
+    "0": "dungeons_and_combat:block/head_skull"
+  },
+  "render_type": "cutout_mipped"
+}

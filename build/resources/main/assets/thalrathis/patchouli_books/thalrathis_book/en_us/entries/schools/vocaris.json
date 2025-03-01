@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:vocaris_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vocaris is the school of summoning and conjuration, a force of creation and manifestation. Those who follow Vocaris can summon creatures from other realms, evoke elemental forces, or bind spirits to their service."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The magic of Vocaris is dynamic and diverse, allowing its users to alter the very fabric of reality by bringing forth the elements or creatures to fight in their name."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Evocation requires both mastery over the forces of nature and the ability to control powerful beings. The art is as much about control as it is about creation."
+    }
+  ]
+}

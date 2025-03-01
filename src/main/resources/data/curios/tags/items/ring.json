@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:uncommon_mana_ring",
+    "thalrathis:rare_mana_ring",
+    "thalrathis:epic_mana_ring",
+    "thalrathis:legendary_mana_ring",
+    "thalrathis:godly_mana_ring",
+    "thalrathis:divine_mana_ring",
+    "thalrathis:demonic_mana_ring",
+    "thalrathis:chaotic_mana_ring",
+    "thalrathis:super_mana_ring"
+  ]
+}

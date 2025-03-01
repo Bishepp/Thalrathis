@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "dungeons_and_combat:block/bone_plank",
+    "bottom": "dungeons_and_combat:block/bone_plank",
+    "top": "dungeons_and_combat:block/bone_plank",
+    "side": "dungeons_and_combat:block/bone_plank"
+  },
+  "render_type": "solid"
+}

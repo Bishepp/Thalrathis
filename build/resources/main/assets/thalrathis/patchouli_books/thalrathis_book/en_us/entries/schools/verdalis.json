@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:verdalis_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Verdalis is the school of nature and life in all its forms. Its practitioners can commune with the plants and animals of Thalrathis, calling upon the earth itself for power."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "From summoning treants to manipulating vines and healing with natural herbs, Verdalis allows its mages to shape the world with an organic touch."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Practitioners are in tune with the land, drawing strength from the cycles of nature—life, death, and rebirth. Verdalis magic is a blend of creation and destruction, a force that can both nurture life and consume it."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "dungeons_and_combat:block/crimson_brick",
+    "bottom": "dungeons_and_combat:block/crimson_brick",
+    "top": "dungeons_and_combat:block/crimson_brick",
+    "side": "dungeons_and_combat:block/crimson_brick"
+  },
+  "render_type": "solid"
+}

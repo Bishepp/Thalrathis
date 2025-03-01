@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "particle": "dungeons_and_combat:block/elden_oak_door_botton",
+    "bottom": "dungeons_and_combat:block/elden_oak_door_botton",
+    "top": "dungeons_and_combat:block/elden_oak_door_top"
+  },
+  "render_type": "cutout"
+}

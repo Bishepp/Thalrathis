@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "thalrathis:item/netherite_scythe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 10, 0.5],
+			"scale": [1.9, 1.9, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 10, 0.5],
+			"scale": [1.7, 1.7, 0.85]
+		}
+	}
+}

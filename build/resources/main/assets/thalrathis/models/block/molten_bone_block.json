@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dungeons_and_combat:block/molten_bone_block_top",
+    "up": "dungeons_and_combat:block/molten_bone_block_top",
+    "north": "dungeons_and_combat:block/molten_bone_block_side",
+    "east": "dungeons_and_combat:block/molten_bone_block_side",
+    "south": "dungeons_and_combat:block/molten_bone_block_side",
+    "west": "dungeons_and_combat:block/molten_bone_block_side",
+    "particle": "dungeons_and_combat:block/molten_bone_block_top"
+  },
+  "render_type": "solid"
+}

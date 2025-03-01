@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Thalrathis
+Specification-Vendor: Bishepp
+Specification-Version: 1
+Implementation-Title: Thalrathis
+Implementation-Version: 1.0.0-beta
+Implementation-Vendor: Bishepp
+Implementation-Timestamp: 2025-01-23T17:31:13+0300
+

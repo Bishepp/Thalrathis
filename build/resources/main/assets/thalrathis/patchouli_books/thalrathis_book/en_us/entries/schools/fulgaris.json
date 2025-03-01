@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:fulgaris_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The school of Fulgaris channels the electric force of the storm. Its mages command the very skies, calling down thunderbolts and sending arcs of lightning through the air."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Those who wield Fulgaris can electrify their enemies, imbue their weapons with electrical energy, or manipulate electrical currents to disrupt machinery. This volatile magic mirrors the storm’s unpredictable nature, capable of both immense destruction and sudden clarity."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Practitioners of Fulgaris are known for their speed and precision, much like the lightning they control."
+    }
+  ]
+}

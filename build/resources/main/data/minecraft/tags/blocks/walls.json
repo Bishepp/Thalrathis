@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:igneous_blackstone_brick_wall",
+    "thalrathis:crimson_tiles_wall",
+    "thalrathis:crimson_brick_wall",
+    "thalrathis:cobblestone_brick_wall"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Banshees",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Banshees are ethereal, ghostly beings who can phase through blocks and use their terrifying wails to deal area damage. They feed on the moonlight and cannot regain hunger from food."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "With their weakened health and inability to trade, they are often feared and avoided. Banshees deal strong curses and use their haunting presence to wreak havoc on those who dare enter their domain."
+    }
+  ]
+}

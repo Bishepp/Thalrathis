@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:chalice_with_blood"
+    },
+    "title": {
+      "translate": "advancements.born_of_blood.title"
+    },
+    "description": {
+      "translate": "advancements.born_of_blood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "born_of_blood_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dungeons_and_combat:hiddeninthe_cult"
+}

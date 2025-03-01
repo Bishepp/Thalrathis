@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:titan_helmet"
+    },
+    "title": {
+      "translate": "advancements.the_titan.title"
+    },
+    "description": {
+      "translate": "advancements.the_titan.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_titan_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dungeons_and_combat:origin"
+}

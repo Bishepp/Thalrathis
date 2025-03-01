@@ -1,0 +1,19 @@
+{
+  "name": "Umbra Demigods",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Umbra Demigods are children of the gods, born from the darkest corners of the world. They possess godlike powers and are able to bend the shadows themselves to their will. Some say they are the children of forgotten deities, others claim they are the result of ancient rituals long lost to time."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their abilities to manipulate darkness make them feared and revered. They are wanderers of the world, often appearing during times of great need or great conflict, and their motives are as elusive as the shadows they command. The Umbra Demigods are powerful wielders of Umbra magic."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their ability to control shadows, summon the night, and obscure vision makes them formidable in battle. They also share a faint affinity with Obscurum (Eldritch) magic, often drawing upon the deeper, unknowable forces of the void."
+    }
+  ]
+}

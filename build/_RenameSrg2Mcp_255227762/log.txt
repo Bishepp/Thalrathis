@@ -1,0 +1,15 @@
+Java Launcher: C:\Users\iambi\.gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.13+11\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\iambi\.gradle\caches\modules-2\files-2.1\team.lodestar.lodestone\lodestone\1.20.1-1.4.2.62\9de81b58392520d09e6e67a1f9cf9ae4899dcf36\lodestone-1.20.1-1.4.2.62.jar, --output, C:\Users\iambi\.gradle\caches\forge_gradle\deobf_dependencies\team\lodestar\lodestone\lodestone\1.20.1-1.4.2.62_mapped_official_1.20.1\lodestone-1.20.1-1.4.2.62_mapped_official_1.20.1.jar, --mcp, C:\Users\iambi\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.20.1\mapping-1.20.1-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\iambi\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.4.4\installertools-1.4.4-fatjar.jar
+Working directory: D:\testingcode\Thalrathis\build\_RenameSrg2Mcp_255227762
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\iambi\.gradle\caches\modules-2\files-2.1\team.lodestar.lodestone\lodestone\1.20.1-1.4.2.62\9de81b58392520d09e6e67a1f9cf9ae4899dcf36\lodestone-1.20.1-1.4.2.62.jar
+Output: C:\Users\iambi\.gradle\caches\forge_gradle\deobf_dependencies\team\lodestar\lodestone\lodestone\1.20.1-1.4.2.62_mapped_official_1.20.1\lodestone-1.20.1-1.4.2.62_mapped_official_1.20.1.jar
+MCP:    C:\Users\iambi\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.20.1\mapping-1.20.1-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

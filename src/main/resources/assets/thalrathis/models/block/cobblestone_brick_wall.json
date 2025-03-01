@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "dungeons_and_combat:block/cobblestone_bricks_alterne",
+    "particle": "dungeons_and_combat:block/cobblestone_bricks_alterne"
+  },
+  "render_type": "solid"
+}

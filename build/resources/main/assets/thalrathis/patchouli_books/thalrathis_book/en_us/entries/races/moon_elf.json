@@ -1,0 +1,15 @@
+{
+  "name": "Moon Elves",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Moon Elves possess the ability to control the tides and harness the powers of the moon. They regenerate health during the night and are stronger when in moonlit areas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "However, they are weakest during the day, where their strength and vitality are significantly reduced. Moon Elves are powerful under the night sky but must stay cautious during the day."
+    }
+  ]
+}

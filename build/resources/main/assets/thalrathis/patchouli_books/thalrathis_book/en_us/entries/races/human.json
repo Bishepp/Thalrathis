@@ -1,0 +1,20 @@
+{
+  "name": "Humans",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Humans are a versatile and adaptable race, without any extraordinary advantages or flaws. They are defined not by inherent powers or strengths, but by their ingenuity and determination. Though they lack the magical affinities of other races, humans are resourceful, capable of mastering a wide range of skills."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their drive to explore, build, and conquer has allowed them to survive and thrive in a world shaped by powerful forces. While they may not wield the raw magic of the Elves or the strength of the Ogres, humans are quick to adapt and form alliances, making them formidable in their own right."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In the ever-shifting landscape of Thalrathis, humans carve their path through ambition and resilience. They have learned to coexist with the ancient races, and their influence continues to grow in the world of magic and warfare."
+    }
+  ]
+
+}

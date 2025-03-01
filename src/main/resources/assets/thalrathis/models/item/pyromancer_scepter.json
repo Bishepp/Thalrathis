@@ -1,0 +1,7 @@
+{
+  "parent": "thalrathis:custom/pyroclastic_scepter",
+  "textures": {
+    "0": "thalrathis:block/pyroclastic_scepter",
+    "particle": "thalrathis:item/horde_torch"
+  }
+}

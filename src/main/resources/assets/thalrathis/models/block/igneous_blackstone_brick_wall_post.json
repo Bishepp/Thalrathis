@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "dungeons_and_combat:block/blazing_blackstone_brick",
+    "particle": "dungeons_and_combat:block/blazing_blackstone_brick"
+  },
+  "render_type": "solid"
+}

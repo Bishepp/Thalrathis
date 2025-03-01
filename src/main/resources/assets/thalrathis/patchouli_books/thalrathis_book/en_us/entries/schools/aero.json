@@ -1,0 +1,19 @@
+{
+  "name": "Aero Magic School",
+  "icon": "thalrathis:aero_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aero is the magic of wind, storms, and the skies above. Its practitioners can manipulate the air, summon gusts of wind, create tornadoes, or fly through the heavens."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Aero magic allows its users to control the flow of the atmosphere itself, bending it to their will. Those who master Aero are often agile and quick, able to strike from above or retreat into the wind."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Aero is both a force of freedom and destruction, capable of shaping the very air that sustains life."
+    }
+  ]
+}

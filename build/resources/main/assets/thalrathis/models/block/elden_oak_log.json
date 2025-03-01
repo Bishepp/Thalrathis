@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dungeons_and_combat:block/elden_oak_top",
+    "up": "dungeons_and_combat:block/elden_oak_top",
+    "north": "dungeons_and_combat:block/elden_oak_side",
+    "east": "dungeons_and_combat:block/elden_oak_side",
+    "south": "dungeons_and_combat:block/elden_oak_side",
+    "west": "dungeons_and_combat:block/elden_oak_side",
+    "particle": "dungeons_and_combat:block/elden_oak_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Thyle-Yie",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Thyle-Yie are a nearly forgotten race, older than the gods themselves. They are the last remnants of a time when magic itself was still taking shape. Their civilization flourished long ago, before the rise of the schools of magic, and their understanding of magic was unparalleled."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "However, their pursuit of perfection and ultimate knowledge led them to the Finality magic school, a school that mastered all the magic elements and energy, to understand the origin and the end of time and existence. Now, they wander the world as philosophers, their once-great empire lost to history."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Thyle-Yie are the devoted practitioners of Finality, seeking to understand the essence of closure and the inevitable end of all things. Their connection to time and the universe itself allows them to manipulate fate, causing things to either cease to exist or fade into oblivion."
+    }
+  ]
+}

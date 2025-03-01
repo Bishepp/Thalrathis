@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/chalice_divine",
+  "textures": {
+    "all": "dungeons_and_combat:block/chalice_with_divine_blood",
+    "particle": "dungeons_and_combat:block/chalice_with_divine_blood",
+    "2": "dungeons_and_combat:block/chalice_with_divine_blood"
+  },
+  "render_type": "cutout_mipped"
+}

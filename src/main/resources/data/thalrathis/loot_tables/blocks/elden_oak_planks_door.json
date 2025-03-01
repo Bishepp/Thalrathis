@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "dungeons_and_combat:blocks/elden_oak_planks_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_and_combat:elden_oak_planks_door",
+          "conditions": [
+            {
+              "block": "dungeons_and_combat:elden_oak_planks_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:titanium_block",
+    "thalrathis:blazing_block",
+    "thalrathis:raw_crimson_block",
+    "thalrathis:raw_titanium_block",
+    "thalrathis:rough_ebony",
+    "thalrathis:titanium_deepslate_ore",
+    "thalrathis:titanium_ore"
+  ]
+}

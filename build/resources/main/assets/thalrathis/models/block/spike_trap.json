@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/spiketrap",
+  "textures": {
+    "all": "dungeons_and_combat:block/spiketrap",
+    "particle": "dungeons_and_combat:block/spiketrap",
+    "0": "dungeons_and_combat:block/spiketrap"
+  },
+  "render_type": "cutout_mipped"
+}

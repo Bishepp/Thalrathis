@@ -1,0 +1,7 @@
+{
+  "parent": "thalrathis:custom/molten_blazing_fists",
+  "textures": {
+    "0": "thalrathis:block/molten_blazing_fists",
+    "particle": "thalrathis:item/flaming_glove"
+  }
+}

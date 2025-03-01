@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "dungeons_and_combat:block/elden_oak_planks",
+    "bottom": "dungeons_and_combat:block/elden_oak_planks",
+    "top": "dungeons_and_combat:block/elden_oak_planks",
+    "side": "dungeons_and_combat:block/elden_oak_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Arachnomorphs",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Arachnomorphs are twisted beings with spider-like traits. They have abilities similar to Arachnids but with additional features, such as the ability to poison enemies on contact and slow them down with an active ability."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They have a reduced health pool and cannot wear armor stronger than iron, but their affinity for webs and their ability to slow down opponents make them fearsome in battle. They are more agile than most and are often used as stealthy assassins or scouts."
+    }
+  ]
+}

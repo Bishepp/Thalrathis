@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "icon": "thalrathis:luminus_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Luminus is the magic of illumination, purity, and radiance. Its practitioners draw on the energy of the sun, stars, and the celestial realms to create blinding flashes of light, heal wounds, and purify the world of darkness."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Luminus represents clarity, hope, and guidance, often used to banish evil and bring light to dark places. Practitioners of Luminus are often seen as beacons of hope, wielding light as both a weapon and a force of healing."
+    }
+  ]
+}

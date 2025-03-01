@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "icon": "thalrathis:aquata_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Aquata is the school of water and all its forms—rain, oceans, rivers, and ice. Masters of Aquata can command the flow of water, summon tsunamis, freeze lakes, or create torrents to overwhelm their foes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Water’s adaptability makes it a powerful magic for both offense and defense, able to shift forms at will. Practitioners of Aquata often find balance in their magic, as the force of water can be both gentle and overwhelming. It is the magic of life, cleansing, and fluidity."
+    }
+  ]
+}

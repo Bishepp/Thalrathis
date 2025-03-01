@@ -1,0 +1,9 @@
+{
+  "parent": "dungeons_and_combat:custom/sacrificial_table",
+  "textures": {
+    "all": "dungeons_and_combat:block/sacrificial_table",
+    "particle": "dungeons_and_combat:block/sacrificial_table",
+    "0": "dungeons_and_combat:block/sacrificial_table"
+  },
+  "render_type": "cutout_mipped"
+}

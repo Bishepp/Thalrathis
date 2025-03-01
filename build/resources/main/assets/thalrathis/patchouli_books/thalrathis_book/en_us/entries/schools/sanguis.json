@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:sanguis_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sanguis is the magic of life itself, focused on the blood that flows within every living being. Masters of this school can manipulate their own blood, alter others’ life force, or even use blood as a medium for spells."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Blood magic can heal wounds, control the bodies of others, or perform dark rites of sacrifice to gain power. It is a deeply personal and often forbidden form of magic, drawing from the practitioner’s own vitality."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Those who master Sanguis walk a dangerous path, for blood magic can be as destructive as it is life-giving."
+    }
+  ]
+}

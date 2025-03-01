@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:yomayo_spell_book",
+    "thalrathis:ice_spell_book",
+    "thalrathis:fire_spell_book",
+    "thalrathis:lightning_spell_book",
+    "thalrathis:nature_spell_book",
+    "thalrathis:blood_spell_book",
+    "thalrathis:holy_spell_book",
+    "thalrathis:ender_spell_book",
+    "thalrathis:evocation_spell_book",
+    "thalrathis:eldritch_spell_book",
+    "thalrathis:dragonmancers_oathbook"
+  ]
+}

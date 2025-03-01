@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "thalrathis:item/crimson_sword_2"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 9.75, 0.5],
+			"scale": [1.6, 1.6, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 9.75, 0.5],
+			"scale": [1.6, 1.6, 0.85]
+		}
+	}
+}

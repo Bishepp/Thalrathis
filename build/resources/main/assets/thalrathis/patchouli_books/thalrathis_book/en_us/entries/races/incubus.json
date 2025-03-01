@@ -1,0 +1,15 @@
+{
+  "name": "Incubuses",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Incubuses are dark and malevolent beings of the netherworld. They thrive in the fiery depths of the Nether, immune to fire damage. They can breathe fire and harness their health to temporarily increase their strength. However, they are vulnerable to water and take more damage from weapons with the \"Heaven's Wrath\" enchantment."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their dark nature and fire-breathing abilities make them fierce opponents, but their weaknesses to certain elements make them vulnerable in specific environments."
+    }
+  ]
+}

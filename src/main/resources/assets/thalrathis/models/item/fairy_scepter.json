@@ -1,0 +1,6 @@
+{
+  "parent": "thalrathis:displaysettings/fairystaffanimated.item",
+  "textures": {
+    "layer0": "thalrathis:item/fairy_staff_animated"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "forge:separate_transforms",
+    "base": {
+        "parent": "thalrathis:item/dragonmancers_oathbook_model"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "thalrathis:item/dragonmancers_oathbook_gui"
+        }
+    }
+}

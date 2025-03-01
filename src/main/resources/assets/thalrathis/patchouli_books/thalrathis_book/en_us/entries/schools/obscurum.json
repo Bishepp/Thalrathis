@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:obscurum_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Obscurum is the school of the unknown, tapping into forbidden and eldritch forces that lie beyond the veil of reality. It is the magic of the void, madness, and ancient horrors, drawing power from realms that defy understanding."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Practitioners of Obscurum wield spells that can twist reality, summon grotesque entities, or invoke the unknown. The magic is chaotic, unpredictable, and often dangerous, as it deals with forces that even the most experienced mages dare not fully comprehend."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To wield Obscurum is to dance on the edge of madness itself."
+    }
+  ]
+}

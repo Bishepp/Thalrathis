@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:tenebris_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tenebris is the school of shadow and the unknown. It taps into the mysterious forces of the End, bending light and space to manipulate reality itself."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Practitioners of Tenebris can cloak themselves in shadows, summon creatures of the dark, and even travel between dimensions. Tenebris magic is often associated with secrecy and deception, as its users can alter their appearance,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hide from view, and manipulate the fabric of space to confuse their foes. It is a school of subtle power, where every spell carries the weight of ancient secrets."
+    }
+  ]
+}

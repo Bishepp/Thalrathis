@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "icon": "thalrathis:umbra_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Umbra is the magic of shadows, darkness, and the unseen. It allows its practitioners to manipulate the absence of light, creating illusions, cloaking themselves, or summoning creatures of the dark. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Umbra is a subtle and deceptive magic, allowing its users to control what is hidden from the world. Practitioners of Umbra are often stealthy, able to strike from the shadows or disappear without a trace. It is a magic of secrecy, shadow, and stealth."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "icon": "thalrathis:flamara_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Flamara is the mastery of flame, heat, and destruction. Its practitioners draw power from the primal force of fire, shaping it into devastating spells. Masters of this school can conjure raging infernos, hurl fireballs, and even control the temperature of their surroundings."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "From burning enemies to heating the earth beneath their feet, Flamara embodies the destructive and transformative power of fire itself. Those who wield Flamara often possess an untamable passion and an unrelenting drive to burn away all obstacles."
+    }
+  ]
+}

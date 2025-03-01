@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "icon": "thalrathis:ultimara_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ultimata is the school of raw strength and physical manipulation. Its practitioners focus on enhancing their own physical power, manipulating gravity, or creating shockwaves of force to shake the very earth."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ultimata is a school that allows users to channel physical energy and amplify their physical abilities to superhuman levels. From brute force to precise control of the body’s movements, Ultimata is the force of pure, unrelenting might."
+    }
+  ]
+}

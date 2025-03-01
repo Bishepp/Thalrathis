@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:the_gravedigger_greataxe"
+    },
+    "title": {
+      "translate": "advancements.the_new_gravedigger.title"
+    },
+    "description": {
+      "translate": "advancements.the_new_gravedigger.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_new_gravedigger_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dungeons_and_combat:witch"
+}

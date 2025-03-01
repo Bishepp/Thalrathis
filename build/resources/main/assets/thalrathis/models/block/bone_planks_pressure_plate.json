@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "particle": "dungeons_and_combat:block/bone_plank",
+    "texture": "dungeons_and_combat:block/bone_plank"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Plaguebearers",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Plaguebearers are infected, cursed beings who spread disease and poison to others. Their presence weakens nearby enemies, and they regenerate health when others die in their vicinity."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They’re capable of draining life from others but are severely weakened by healing spells and potions. Their poisonous aura can turn the tide of battle, but they must be wary of the light, which weakens them significantly."
+    }
+  ]
+}

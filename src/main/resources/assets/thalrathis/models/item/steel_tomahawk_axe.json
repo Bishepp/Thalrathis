@@ -1,0 +1,7 @@
+{
+  "parent": "thalrathis:custom/tomahawk",
+  "textures": {
+    "1": "thalrathis:block/tomahawk",
+    "particle": "thalrathis:item/steel_axe"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Goblins",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Greedy and cunning, Goblins are creatures of gold. They receive bonuses when wearing golden armor and using golden tools, which also have enhanced durability in their hands. Despite their affinity for gold, they suffer from low health and increased damage from all sources."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their small size and quick reflexes make them excellent at escaping combat, but their frailty often leaves them vulnerable in direct confrontations."
+    }
+  ]
+}

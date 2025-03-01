@@ -1,0 +1,19 @@
+{
+  "name": "Illagers",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Illagers are a twisted and malevolent offshoot of humanity, once scholars and sages who sought knowledge beyond the veil of Thalrathis. Their hunger for forbidden lore led them to the school of Nihility, where they delved into the dark arts of nothingness and entropy."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They are now exiles, cast out by the other races for their cruel and destructive ways. The Illagers' dark magic erodes reality itself,leaving behind only emptiness. They are eternal enemies of the villages, seeking to destroy the structures of civilization and plunge the world into darkness."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Illagers are the ultimate practitioners of Nihility, using their mastery of void magic to manipulate the fabric of reality, cause decay, and undo creation itself. They are the antithesis to the other magic schools, seeking to bring an end to all things, including magic."
+    }
+  ]
+}

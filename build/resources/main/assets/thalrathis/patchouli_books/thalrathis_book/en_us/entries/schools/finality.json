@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:finality_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Finality is the magic of ultimate control—absolute and unyielding. It is a force that dictates the unalterable truths of reality, such as time, space, and existence itself."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Practitioners of Finality can alter these fundamental laws, freezing time, stopping the flow of energy, or even rewriting reality. It is a magic of unimaginable power and precision, capable of controlling the very fabric of the universe."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To wield Finality is to grasp the most dangerous and absolute form of control, where every action carries immense consequences."
+    }
+  ]
+}

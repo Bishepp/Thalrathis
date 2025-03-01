@@ -1,0 +1,15 @@
+{
+  "name": "Catmen",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Catmen are agile, quick, and have the grace of a feline. They never take fall damage and can leap higher than any other race. While they have slightly less health than humans, their dexterity and ability to evade damage in many situations make them a formidable force."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They also have the ability to repel creepers and possess enhanced vision in the dark, making them ideal for night exploration. However, they can't mine stone or ores without special potions."
+    }
+  ]
+}

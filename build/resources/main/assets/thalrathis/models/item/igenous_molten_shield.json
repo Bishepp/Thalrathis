@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "thalrathis:item/shield_of_the_molten_ignis"
+	},
+	"overrides": [
+		{"predicate": {"blocking": 1}, "model": "thalrathis:item/igenous_molten_shield_0"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [62, -90, 55],
+			"translation": [3, -3, 0.5],
+			"scale": [2.1, 2, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [62, -90, 55],
+			"translation": [3, -3, 0.5],
+			"scale": [2.1, 2, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -21, 0],
+			"translation": [1.75, -2, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -21, 0],
+			"translation": [1.75, -2, 0],
+			"scale": [1.5, 1.5, 1]
+		}
+	}
+}

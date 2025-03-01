@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:cursed_soul"
+    },
+    "title": {
+      "translate": "advancements.the_cursed_soul.title"
+    },
+    "description": {
+      "translate": "advancements.the_cursed_soul.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_cursed_soul_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dungeons_and_combat:cursed_soul"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dungeons_and_combat:the_man_of_steel"
+}

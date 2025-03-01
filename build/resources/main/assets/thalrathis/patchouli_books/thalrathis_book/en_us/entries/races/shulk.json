@@ -1,0 +1,15 @@
+{
+  "name": "Shulks",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Shulks are a sturdy race, known for their exceptional armor capabilities and the unique ability to store items after their death in 9 extra inventory slots. They can break stone with their bare hands, making them useful miners and builders."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "However, they cannot use shields and suffer from hunger faster than other races.Their endurance and strength are admirable, but their reliance on food and the inability to protect themselves with shields can lead to challenges in certain situations."
+    }
+  ]
+}

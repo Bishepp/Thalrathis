@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:nihility_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nihility is the absence of magic itself, a force that seeks to negate, destroy, and erase all other forms of magic. Practitioners of Nihility can nullify spells, unravel enchantments, and create voids where no magic can exist."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It is the anti-magic, a counterforce to the power that shapes the world. Nihility is the magic of nothingness, a cold and unyielding force that seeks to strip the world of its mystical energy."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its practitioners are often seen as wielders of destruction, seeking to undo the very essence of magic."
+    }
+  ]
+}

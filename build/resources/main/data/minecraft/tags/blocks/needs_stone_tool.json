@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:steel_block",
+    "thalrathis:igneous_block",
+    "thalrathis:igneous_blackstone_brick_wall",
+    "thalrathis:igneous_blackstone_brick_slab",
+    "thalrathis:igneous_blackstone_brick_stairs",
+    "thalrathis:igneous_blackstone_brick",
+    "thalrathis:igneous_ore"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "thalrathis:displaysettings/scepterofcompensation.item",
+  "textures": {
+    "layer0": "thalrathis:item/sanguinescepter"
+  }
+}

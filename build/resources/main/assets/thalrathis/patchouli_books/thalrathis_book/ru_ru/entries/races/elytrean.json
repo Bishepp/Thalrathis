@@ -1,0 +1,15 @@
+{
+  "name": "Elytreans",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Elytreans are an ancient race with wings that grant them the ability to soar high above the ground using built-in elytra. They possess the rare power to ascend up to 20 blocks at a time, once every 30 seconds. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Though their flying prowess grants them the advantage of aerial combat, they have limitations in wearing heavy armor and are especially vulnerable to fall damage. The Elitrians’ mastery of the skies makes them excellent in combat, but their fragile bodies need careful protection."
+    }
+  ]
+}

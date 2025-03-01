@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sandstone"
+    },
+    "title": {
+      "translate": "advancements.forgotten_sands.title"
+    },
+    "description": {
+      "translate": "advancements.forgotten_sands.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "forgotten_sands_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 1000
+          },
+          "source_entity": {
+            "type": "dungeons_and_combat:mummy"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "dungeons_and_combat:dungeons_and_combat"
+}

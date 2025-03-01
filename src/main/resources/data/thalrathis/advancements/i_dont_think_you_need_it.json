@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:ammit_fang"
+    },
+    "title": {
+      "translate": "advancements.i_dont_think_you_need_it.title"
+    },
+    "description": {
+      "translate": "advancements.i_dont_think_you_need_it.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i_dont_think_you_need_it_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dungeons_and_combat:ammit_fang"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dungeons_and_combat:forgotten_sands"
+}

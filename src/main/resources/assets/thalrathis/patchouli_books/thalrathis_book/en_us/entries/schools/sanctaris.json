@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "icon": "thalrathis:sanctaris_shard",
+  "category": "thalrathis:schools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sanctaris is the radiant school of light, purity, and divine magic. Its practitioners can call upon the forces of heaven to heal the wounded, banish evil, and protect the innocent."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Holy magic is the force of righteousness, the antithesis of dark magic, and it allows its users to create powerful shields of light, summon celestial beings, and purify corruption."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Practitioners of Sanctaris are often seen as protectors or paladins, bound by a sense of duty to safeguard life and fight against the forces of darkness."
+    }
+  ]
+}

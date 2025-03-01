@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:elden_oak_planks_slab",
+    "thalrathis:igneous_blackstone_brick_slab",
+    "thalrathis:bone_planks_slab",
+    "thalrathis:crimson_tiles_slab",
+    "thalrathis:crimson_brick_slab",
+    "thalrathis:cobblestone_brick_slab"
+  ]
+}

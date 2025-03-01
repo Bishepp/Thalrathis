@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:scorpion_claw"
+    },
+    "title": {
+      "translate": "advancements.is_this_my_size.title"
+    },
+    "description": {
+      "translate": "advancements.is_this_my_size.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "is_this_my_size_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dungeons_and_combat:scorpion_claw"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dungeons_and_combat:i_dont_think_you_need_it"
+}

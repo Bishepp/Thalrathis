@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:bone_planks_button",
+    "thalrathis:bone_planks_pressure_plate",
+    "thalrathis:elden_oak_planks_trap_door",
+    "thalrathis:elden_oak_planks_door",
+    "thalrathis:elden_oak_planks_button",
+    "thalrathis:elden_oak_planks_pressure_plate",
+    "thalrathis:elden_oak_planks_fence_gate",
+    "thalrathis:elden_oak_planks_fence",
+    "thalrathis:elden_oak_planks_slab",
+    "thalrathis:elden_oak_planks",
+    "thalrathis:elden_oak_planks_stairs",
+    "thalrathis:elden_oak_wood",
+    "thalrathis:elden_oak_log",
+    "thalrathis:skull_chest",
+    "thalrathis:bone_planks_trap_door",
+    "thalrathis:bone_planks_door",
+    "thalrathis:bone_planks_fence_gate",
+    "thalrathis:bone_planks_fence",
+    "thalrathis:bone_planks_slab",
+    "thalrathis:bone_planks_stairs",
+    "thalrathis:bone_planks"
+  ]
+}

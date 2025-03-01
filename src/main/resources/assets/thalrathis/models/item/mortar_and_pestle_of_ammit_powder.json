@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "thalrathis:item/mortar__pestle.png_of_milled_fang"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "thalrathis:elden_oak_planks_stairs",
+    "thalrathis:igneous_blackstone_brick_stairs",
+    "thalrathis:bone_planks_stairs",
+    "thalrathis:crimson_tiles_stairs",
+    "thalrathis:crimson_brick_stairs",
+    "thalrathis:cobblestone_brick_stairs"
+  ]
+}

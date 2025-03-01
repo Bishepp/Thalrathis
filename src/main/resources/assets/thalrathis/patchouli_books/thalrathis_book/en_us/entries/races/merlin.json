@@ -1,0 +1,15 @@
+{
+  "name": "Merlins",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Merlins are aquatic beings with the ability to breathe underwater. Their sharp vision and ability to move and mine faster in aquatic environments make them masters of the seas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their enhanced swimming and mining abilities allow them to gather resources quickly in their domain, but they are helpless on land. Merlins are the perfect race for underwater exploration, though they must return to the water to thrive."
+    }
+  ]
+}

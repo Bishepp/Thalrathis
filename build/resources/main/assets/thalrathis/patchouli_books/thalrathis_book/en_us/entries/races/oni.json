@@ -1,0 +1,19 @@
+{
+  "name": "Onis",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Oni are ancient warriors, born from the deepest pits of war and suffering. Their bloodlust is unmatched, and their ability to channel the blood of their enemies into devastating powers has made them feared across Thalrathis. Their strength comes from the blood they spill; the more they bleed, the stronger they become."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They are often seen wielding colossal weapons, tainted by the blood they’ve harvested. The Onis have a deep connection with Sanguis Magic. Their mastery of blood manipulation allows them to harness the life force of others to increase their own power, or to use it as a weapon. In battle, their ability to \"bleed\" their enemies for power makes them formidable opponents."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Oni can also feel a faint connection to Fulgaris (Lightning) magic due to their explosive bursts of power when enraged."
+    }
+  ]
+}

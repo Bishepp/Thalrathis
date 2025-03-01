@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:crimson_helmet"
+    },
+    "title": {
+      "translate": "advancements.blood_is_fuel_hell_is_full.title"
+    },
+    "description": {
+      "translate": "advancements.blood_is_fuel_hell_is_full.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blood_is_fuel_hell_is_full_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dungeons_and_combat:born_of_blood"
+}

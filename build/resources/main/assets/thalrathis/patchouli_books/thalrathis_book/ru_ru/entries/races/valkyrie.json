@@ -1,0 +1,15 @@
+{
+  "name": "Valkyries",
+  "icon": "thalrathis:unused/allium_apple",
+  "category": "thalrathis:races",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Valkyries are majestic, winged warriors, known for their prowess in combat. Their large wings grant them the ability to soar through the skies, acting like elytra. Their strength lies in their aerial abilities and their unique combat style, where each third attack deals extra area damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Their wings allow them to avoid fall damage, but they are vulnerable to undead creatures, which slow them down and weaken them when nearby. Valkyries combine grace and power, but their weakness to the undead is a notable challenge."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thalrathis:item/titanium_shovel"
+  }
+}

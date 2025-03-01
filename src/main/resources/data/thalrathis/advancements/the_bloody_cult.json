@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "dungeons_and_combat:crimson_brick"
+    },
+    "title": {
+      "translate": "advancements.the_bloody_cult.title"
+    },
+    "description": {
+      "translate": "advancements.the_bloody_cult.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_bloody_cult_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 1000
+          },
+          "source_entity": {
+            "type": "dungeons_and_combat:bloody_cultist"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "dungeons_and_combat:dungeons_and_combat"
+}
