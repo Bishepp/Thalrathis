@@ -256,6 +256,7 @@ public class CreativeTabRegistry {
             .title(Component.translatable("itemGroup." + Thalrathis.MODID + ".thalrathis_material_item"))
             .icon(() -> new ItemStack(ItemRegistry.TENEBRIS_SHARD.get()))
             .displayItems((enabledFeatures, entries) -> {
+                entries.accept(ItemRegistry.BASIC_SHARD.get());
                 entries.accept(ItemRegistry.TENEBRIS_SHARD.get());
                 entries.accept(ItemRegistry.SANGUIS_SHARD.get());
                 entries.accept(ItemRegistry.FLAMARA_SHARD.get());

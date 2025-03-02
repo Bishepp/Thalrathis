@@ -1,23 +1,28 @@
 package ru.lemoncraft.thalrathis.registry;
 
 import com.google.common.collect.*;
+
 import io.redspace.ironsspellbooks.api.item.weapons.*;
 import io.redspace.ironsspellbooks.api.registry.*;
 import io.redspace.ironsspellbooks.api.spells.*;
 import io.redspace.ironsspellbooks.item.curios.*;
 import io.redspace.ironsspellbooks.item.spell_books.*;
 import io.redspace.ironsspellbooks.item.weapons.*;
+
 import net.minecraft.world.entity.ai.attributes.*;
 import net.minecraft.world.item.*;
 import ru.lemoncraft.thalrathis.Thalrathis;
 import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.registries.*;
+
 import ru.lemoncraft.thalrathis.common.item.armor.*;
 import ru.lemoncraft.thalrathis.common.item.shard.*;
-import ru.lemoncraft.thalrathis.item.tools.ThalrathisTier;
+import ru.lemoncraft.thalrathis.common.item.tools.*;
 import ru.lemoncraft.thalrathis.util.*;
+
 import java.util.*;
 import java.util.function.*;
+
 
 public class ItemRegistry {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Thalrathis.MODID);
@@ -29,6 +34,8 @@ public class ItemRegistry {
 
     // Materials::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     private static Supplier<? extends net.minecraft.world.item.Item> Item;
+    public static final RegistryObject<Item> BASIC_SHARD = ITEMS.register("basic_shard", () ->
+            new Basic_Shard(ItemPropertiesHelper.material()));
     public static final RegistryObject<Item> TENEBRIS_SHARD = ITEMS.register("tenebris_shard", () ->
             new Tenebris_Shard(ItemPropertiesHelper.material())); // Ender
     public static final RegistryObject<Item> SANGUIS_SHARD = ITEMS.register("sanguis_shard", () ->
