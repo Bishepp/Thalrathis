@@ -1,0 +1,19 @@
+
+{
+  "descriptionId": "material.thalrathis.rune_might",
+  "ingredient": {
+    "item": "thalrathis:might_rune"
+  },
+  "materialType": [
+    "spellbooks_rune"
+  ],
+  "paletteLocation": "thalrathis:palettes/rune_might",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "thalrathis:might_spell_power",
+      "amount": 0.05,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

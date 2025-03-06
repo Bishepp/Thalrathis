@@ -27,8 +27,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.BLOOD_SPELL_POWER.get(), new AttributeModifier("Blood Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     ENDER("ender", 20000, makeArmorMap(200,210,205,200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -38,8 +37,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.ENDER_SPELL_POWER.get(), new AttributeModifier("Ender Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     FIRE("fire", 20000, makeArmorMap(200,210, 205, 200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -49,8 +47,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.FIRE_SPELL_POWER.get(), new AttributeModifier("Fire Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     ICE("ice", 20000, makeArmorMap(200,210, 205, 200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -60,8 +57,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.ICE_SPELL_POWER.get(), new AttributeModifier("Ice Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     LIGHTNING("lightning", 20000, makeArmorMap(200, 210, 205, 200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -71,8 +67,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.LIGHTNING_SPELL_POWER.get(), new AttributeModifier("Lightning Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     ELDRITCH("eldritch", 20000, makeArmorMap(200, 210, 205, 200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -82,8 +77,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.ELDRITCH_SPELL_POWER.get(), new AttributeModifier("Eldritch Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     NATURE("nature", 20000, makeArmorMap(200, 210, 205, 200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -93,8 +87,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.NATURE_SPELL_POWER.get(), new AttributeModifier("Nature Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     HOLY("holy", 20000, makeArmorMap(200, 210, 205, 200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -104,8 +97,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.MANA_REGEN.get(), new AttributeModifier("Mana Regen", .25, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.HOLY_SPELL_POWER.get(), new AttributeModifier("Holy Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     EVOCATION("evocation", 20000, makeArmorMap(200, 210, 205, 200), 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -116,8 +108,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.EVOCATION_SPELL_POWER.get(), new AttributeModifier("Evocation Spell Power", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SUMMON_DAMAGE.get(), new AttributeModifier("Summon Damage", 1.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.1, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 0.5, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     FINALITY("finality", 50000, makeArmorMap(500,520,510,500), 35,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
@@ -128,8 +119,7 @@ public enum ExtendedArmorMaterials implements ExtendedArmorMaterial {
             AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Spell Power", 2.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.SPELL_RESIST.get(), new AttributeModifier("Spell Resist", 2.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
             AttributeRegistry.SUMMON_DAMAGE.get(), new AttributeModifier("Summon Damage", 2.0, AttributeModifier.Operation.MULTIPLY_BASE),
-            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL),
-            Attributes.MOVEMENT_SPEED, new AttributeModifier("Movement Speed", 0.2, AttributeModifier.Operation.ADDITION)
+            Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 1.0, AttributeModifier.Operation.MULTIPLY_TOTAL)
     )),
     // Ice and Fire: SpellBooks replacement:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     ICE_DRAGON_PRIEST("ice_dragon_priest", 10000, makeArmorMap(50, 60,55,50), 15,

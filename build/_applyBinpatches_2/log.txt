@@ -1,18 +1,18 @@
 Java Launcher: C:\Users\iambi\.gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.13+11\bin\java.exe
-Arguments: '--clean, C:\Users\iambi\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar, --output, C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22\forge-1.20.1-47.3.22-binpatched.jar, --apply, C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22\forge-1.20.1-47.3.22-binpatches.lzma'
+Arguments: '--clean, C:\Users\iambi\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar, --output, C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.33\forge-1.20.1-47.3.33-binpatched.jar, --apply, C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.33\forge-1.20.1-47.3.33-binpatches.lzma'
 Classpath:
  - C:\Users\iambi\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
-Working directory: D:\Thalrathis\Thalrathis\build\_applyBinpatches_2
+Working directory: D:\testingcode\Thalrathis\build\_applyBinpatches_2
 Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\iambi\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar
-  Output:    C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22\forge-1.20.1-47.3.22-binpatched.jar
+  Output:    C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.33\forge-1.20.1-47.3.33-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.22\forge-1.20.1-47.3.22-binpatches.lzma
+Loading patches file: C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.33\forge-1.20.1-47.3.33-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 151eb55a Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -1881,6 +1881,32 @@ Loading patches file: C:\Users\iambi\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: ab04472f Exists: true
   Reading patch net.minecraft.world.entity.npc.Villager.binpatch
     Checksum: dd609e65 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$DyedArmorForEmeralds.binpatch
+    Checksum: b0ad1aa8 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EmeraldForItems.binpatch
+    Checksum: dab8e032 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem.binpatch
+    Checksum: cb4c3448 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EnchantBookForEmeralds.binpatch
+    Checksum: e3ea256c Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EnchantedItemForEmeralds.binpatch
+    Checksum: bfe963a5 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$ItemListing.binpatch
+    Checksum: 464b8f03 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems.binpatch
+    Checksum: b4c263f7 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$ItemsForEmeralds.binpatch
+    Checksum: 3c517506 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$SuspiciousStewForEmerald.binpatch
+    Checksum: a1140836 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds.binpatch
+    Checksum: ee4b67bd Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$TreasureMapForEmeralds.binpatch
+    Checksum: f3648239 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades.binpatch
+    Checksum: 87a99826 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerType.binpatch
+    Checksum: 3dec07cf Exists: true
   Reading patch net.minecraft.world.entity.player.Inventory.binpatch
     Checksum: 464033c8 Exists: true
   Reading patch net.minecraft.world.entity.player.Player$1.binpatch
@@ -3778,6 +3804,19 @@ Processing: C:\Users\iambi\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/world/entity/npc/AbstractVillager 1/1
   Patching net/minecraft/world/entity/npc/CatSpawner 1/1
   Patching net/minecraft/world/entity/npc/Villager 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$DyedArmorForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EmeraldForItems 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EnchantedItemForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$ItemListing 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$ItemsAndEmeraldsToItems 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$ItemsForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$SuspiciousStewForEmerald 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$TippedArrowForItemsAndEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$TreasureMapForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades 1/1
+  Patching net/minecraft/world/entity/npc/VillagerType 1/1
   Patching net/minecraft/world/entity/player/Inventory 1/1
   Patching net/minecraft/world/entity/player/Player$1 1/1
   Patching net/minecraft/world/entity/player/Player$BedSleepingProblem 1/1

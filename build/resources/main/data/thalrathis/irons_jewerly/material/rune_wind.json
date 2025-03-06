@@ -1,0 +1,19 @@
+
+{
+  "descriptionId": "material.thalrathis.rune_wind",
+  "ingredient": {
+    "item": "thalrathis:wind_rune"
+  },
+  "materialType": [
+    "spellbooks_rune"
+  ],
+  "paletteLocation": "thalrathis:palettes/rune_wind",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "thalrathis:wind_spell_power",
+      "amount": 0.05,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

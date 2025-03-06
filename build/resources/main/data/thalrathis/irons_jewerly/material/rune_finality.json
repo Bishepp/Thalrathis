@@ -1,0 +1,19 @@
+
+{
+  "descriptionId": "material.thalrathis.rune_finality",
+  "ingredient": {
+    "item": "thalrathis:finality_rune"
+  },
+  "materialType": [
+    "spellbooks_rune"
+  ],
+  "paletteLocation": "thalrathis:palettes/rune_finality",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "thalrathis:finality_spell_power",
+      "amount": 0.05,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

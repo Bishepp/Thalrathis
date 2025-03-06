@@ -1,0 +1,19 @@
+{
+  "cast.generic.wind": {
+    "sounds": [
+      "thalrathis:generic/wind_cast"
+    ]
+  },
+
+  "cast.generic.airblast": {
+    "sounds": [
+      "thalrathis:generic/airblast_woosh"
+    ]
+  },
+
+  "cast.generic.airblast_success": {
+    "sounds": [
+      "thalrathis:generic/airblast_redirect_success"
+    ]
+  }
+}

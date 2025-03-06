@@ -1,0 +1,19 @@
+
+{
+  "descriptionId": "material.thalrathis.rune_dark",
+  "ingredient": {
+    "item": "thalrathis:dark_rune"
+  },
+  "materialType": [
+    "spellbooks_rune"
+  ],
+  "paletteLocation": "thalrathis:palettes/rune_dark",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "thalrathis:dark_spell_power",
+      "amount": 0.05,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

@@ -216,5 +216,20 @@
 
   "book.thalrathis.name": "§5Тайная Антология§r",
   "book.thalrathis.landing": "$(l)Добро пожаловать, Искатель Знаний...$()$(br2)В этих страницах скрыта неведомая правда о Талразисе — мире, где магия, сила и знания переплетаются.$(br2)От вечного огня Фламары до чудовищных глубин Обскурума, Антология держит ключ к раскрытию скрытых искусств чародейства. Погрузитесь в знания о могущественных заклинаниях, оружиях и забытых ритуалах, которые сформировали мир Талразиса.",
-  "book.thalrathis.subtitle": "Секреты Талразиса"
+  "book.thalrathis.subtitle": "Секреты Талразиса",
+
+  "attribute.thalrathis.wind_magic_resist": "Wind Spell Resistance",
+  "attribute.thalrathis.wind_spell_power": "Wind Spell Power",
+  "attribute.thalrathis.water_magic_resist": "Water Spell Resistance",
+  "attribute.thalrathis.water_spell_power": "Water Spell Power",
+  "attribute.thalrathis.light_magic_resist": "Light Spell Resistance",
+  "attribute.thalrathis.light_spell_power": "Light Spell Power",
+  "attribute.thalrathis.dark_magic_resist": "Dark Spell Resistance",
+  "attribute.thalrathis.dark_spell_power": "Dark Spell Power",
+  "attribute.thalrathis.might_magic_resist": "Might Spell Resistance",
+  "attribute.thalrathis.might_spell_power": "Might Spell Power",
+  "attribute.thalrathis.finality_magic_resist": "Finality Spell Resistance",
+  "attribute.thalrathis.finality_spell_power": "Finality Spell Power",
+  "attribute.thalrathis.nihility_magic_resist": "Nihility Spell Resistance",
+  "attribute.thalrathis.nihility_spell_power": "Nihility Spell Power"
 }

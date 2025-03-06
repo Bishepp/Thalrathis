@@ -186,5 +186,20 @@
 
   "book.thalrathis.name": "§5The Arcane Anthology§r",
   "book.thalrathis.landing": "$(l)Welcome, Seeker of Knowledge...$() $(br2)Within these pages lies the untold truth of Thalrathis — a realm where magic, power, and ancient forces intertwine.$(br2)From the fiery essence of Flamara to the eldritch depths of Obscurum, The Anthology holds the key to unlocking the hidden arts. Delve into the lore of powerful spells, weapons, and forgotten rituals that have shaped the world of Thalrathis.",
-  "book.thalrathis.subtitle": "The Arcane of Thalrathis"
+  "book.thalrathis.subtitle": "The Arcane of Thalrathis",
+
+  "attribute.thalrathis.wind_magic_resist": "Wind Spell Resistance",
+  "attribute.thalrathis.wind_spell_power": "Wind Spell Power",
+  "attribute.thalrathis.water_magic_resist": "Water Spell Resistance",
+  "attribute.thalrathis.water_spell_power": "Water Spell Power",
+  "attribute.thalrathis.light_magic_resist": "Light Spell Resistance",
+  "attribute.thalrathis.light_spell_power": "Light Spell Power",
+  "attribute.thalrathis.dark_magic_resist": "Dark Spell Resistance",
+  "attribute.thalrathis.dark_spell_power": "Dark Spell Power",
+  "attribute.thalrathis.might_magic_resist": "Might Spell Resistance",
+  "attribute.thalrathis.might_spell_power": "Might Spell Power",
+  "attribute.thalrathis.finality_magic_resist": "Finality Spell Resistance",
+  "attribute.thalrathis.finality_spell_power": "Finality Spell Power",
+  "attribute.thalrathis.nihility_magic_resist": "Nihility Spell Resistance",
+  "attribute.thalrathis.nihility_spell_power": "Nihility Spell Power"
 }

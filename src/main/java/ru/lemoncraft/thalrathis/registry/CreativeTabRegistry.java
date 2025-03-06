@@ -1,12 +1,17 @@
 package ru.lemoncraft.thalrathis.registry;
 
+import io.redspace.ironsspellbooks.api.registry.SpellRegistry;
+import io.redspace.ironsspellbooks.api.spells.ISpellContainer;
 import net.minecraft.core.registries.*;
 import net.minecraft.network.chat.*;
 import net.minecraft.world.item.*;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
 import net.minecraftforge.registries.*;
 import ru.lemoncraft.thalrathis.Thalrathis;
+
+import static io.redspace.ironsspellbooks.registries.CreativeTabRegistry.SCROLLS_TAB;
 
 @Mod.EventBusSubscriber(modid = Thalrathis.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CreativeTabRegistry {
@@ -109,6 +114,7 @@ public class CreativeTabRegistry {
                 entries.accept(ItemRegistry.FIRE_DRAGON_PRIEST_STAFF.get());
                 entries.accept(ItemRegistry.ICE_DRAGON_PRIEST_STAFF.get());
                 entries.accept(ItemRegistry.LIGHTNING_DRAGON_PRIEST_STAFF.get());
+                entries.accept(ItemRegistry.AIR_STAFF.get());
 
                 entries.accept(ItemRegistry.MANA_RING1.get());
                 entries.accept(ItemRegistry.MANA_RING2.get());
@@ -273,7 +279,111 @@ public class CreativeTabRegistry {
                 entries.accept(ItemRegistry.ULTIMARA_SHARD.get());
                 entries.accept(ItemRegistry.FINALITY_SHARD.get());
                 entries.accept(ItemRegistry.NIHILITY_SHARD.get());
+
+                entries.accept(ItemRegistry.WIND_RUNE.get());
+                entries.accept(ItemRegistry.WATER_RUNE.get());
+                entries.accept(ItemRegistry.LIGHT_RUNE.get());
+                entries.accept(ItemRegistry.DARK_RUNE.get());
+                entries.accept(ItemRegistry.MIGHT_RUNE.get());
+                entries.accept(ItemRegistry.FINALITY_RUNE.get());
+                entries.accept(ItemRegistry.NIHILITY_RUNE.get());
+
+                entries.accept(ItemRegistry.WIND_UPGRADE_ORB.get());
+                entries.accept(ItemRegistry.WATER_UPGRADE_ORB.get());
+                entries.accept(ItemRegistry.LIGHT_UPGRADE_ORB.get());
+                entries.accept(ItemRegistry.DARK_UPGRADE_ORB.get());
+                entries.accept(ItemRegistry.MIGHT_UPGRADE_ORB.get());
+                entries.accept(ItemRegistry.FINALITY_UPGRADE_ORB.get());
+                entries.accept(ItemRegistry.NIHILITY_UPGRADE_ORB.get());
             })
             .withTabsBefore(WEAPONS_TAB.getKey())
             .build());
+
+    @SubscribeEvent
+    public static void fillCreativeTabs(final BuildCreativeModeTabContentsEvent event) {
+        if (event.getTab() == CreativeModeTabs.searchTab() || event.getTab() == SCROLLS_TAB.get()) {
+            SpellRegistry.getEnabledSpells().stream()
+                    .filter(spellType -> spellType != SpellRegistry.none()&& spellType.getSchoolType().equals(TSchoolRegistry.WIND.get()))
+                    .forEach(spell -> {
+                        for (int i = spell.getMinLevel(); i <= spell.getMaxLevel(); i++) {
+                            var itemstack = new ItemStack(io.redspace.ironsspellbooks.registries.ItemRegistry.SCROLL.get());
+                            var spellList = ISpellContainer.createScrollContainer(spell, i, itemstack);
+                            spellList.save(itemstack);
+                            event.accept(itemstack);
+                        }
+                    });
+        }
+        if (event.getTab() == CreativeModeTabs.searchTab() || event.getTab() == SCROLLS_TAB.get()) {
+            SpellRegistry.getEnabledSpells().stream()
+                    .filter(spellType -> spellType != SpellRegistry.none()&& spellType.getSchoolType().equals(TSchoolRegistry.WATER.get()))
+                    .forEach(spell -> {
+                        for (int i = spell.getMinLevel(); i <= spell.getMaxLevel(); i++) {
+                            var itemstack = new ItemStack(io.redspace.ironsspellbooks.registries.ItemRegistry.SCROLL.get());
+                            var spellList = ISpellContainer.createScrollContainer(spell, i, itemstack);
+                            spellList.save(itemstack);
+                            event.accept(itemstack);
+                        }
+                    });
+        }
+        if (event.getTab() == CreativeModeTabs.searchTab() || event.getTab() == SCROLLS_TAB.get()) {
+            SpellRegistry.getEnabledSpells().stream()
+                    .filter(spellType -> spellType != SpellRegistry.none()&& spellType.getSchoolType().equals(TSchoolRegistry.LIGHT.get()))
+                    .forEach(spell -> {
+                        for (int i = spell.getMinLevel(); i <= spell.getMaxLevel(); i++) {
+                            var itemstack = new ItemStack(io.redspace.ironsspellbooks.registries.ItemRegistry.SCROLL.get());
+                            var spellList = ISpellContainer.createScrollContainer(spell, i, itemstack);
+                            spellList.save(itemstack);
+                            event.accept(itemstack);
+                        }
+                    });
+        }
+        if (event.getTab() == CreativeModeTabs.searchTab() || event.getTab() == SCROLLS_TAB.get()) {
+            SpellRegistry.getEnabledSpells().stream()
+                    .filter(spellType -> spellType != SpellRegistry.none()&& spellType.getSchoolType().equals(TSchoolRegistry.DARK.get()))
+                    .forEach(spell -> {
+                        for (int i = spell.getMinLevel(); i <= spell.getMaxLevel(); i++) {
+                            var itemstack = new ItemStack(io.redspace.ironsspellbooks.registries.ItemRegistry.SCROLL.get());
+                            var spellList = ISpellContainer.createScrollContainer(spell, i, itemstack);
+                            spellList.save(itemstack);
+                            event.accept(itemstack);
+                        }
+                    });
+        }
+        if (event.getTab() == CreativeModeTabs.searchTab() || event.getTab() == SCROLLS_TAB.get()) {
+            SpellRegistry.getEnabledSpells().stream()
+                    .filter(spellType -> spellType != SpellRegistry.none()&& spellType.getSchoolType().equals(TSchoolRegistry.MIGHT.get()))
+                    .forEach(spell -> {
+                        for (int i = spell.getMinLevel(); i <= spell.getMaxLevel(); i++) {
+                            var itemstack = new ItemStack(io.redspace.ironsspellbooks.registries.ItemRegistry.SCROLL.get());
+                            var spellList = ISpellContainer.createScrollContainer(spell, i, itemstack);
+                            spellList.save(itemstack);
+                            event.accept(itemstack);
+                        }
+                    });
+        }
+        if (event.getTab() == CreativeModeTabs.searchTab() || event.getTab() == SCROLLS_TAB.get()) {
+            SpellRegistry.getEnabledSpells().stream()
+                    .filter(spellType -> spellType != SpellRegistry.none()&& spellType.getSchoolType().equals(TSchoolRegistry.FINALITY.get()))
+                    .forEach(spell -> {
+                        for (int i = spell.getMinLevel(); i <= spell.getMaxLevel(); i++) {
+                            var itemstack = new ItemStack(io.redspace.ironsspellbooks.registries.ItemRegistry.SCROLL.get());
+                            var spellList = ISpellContainer.createScrollContainer(spell, i, itemstack);
+                            spellList.save(itemstack);
+                            event.accept(itemstack);
+                        }
+                    });
+        }
+        if (event.getTab() == CreativeModeTabs.searchTab() || event.getTab() == SCROLLS_TAB.get()) {
+            SpellRegistry.getEnabledSpells().stream()
+                    .filter(spellType -> spellType != SpellRegistry.none()&& spellType.getSchoolType().equals(TSchoolRegistry.NIHILITY.get()))
+                    .forEach(spell -> {
+                        for (int i = spell.getMinLevel(); i <= spell.getMaxLevel(); i++) {
+                            var itemstack = new ItemStack(io.redspace.ironsspellbooks.registries.ItemRegistry.SCROLL.get());
+                            var spellList = ISpellContainer.createScrollContainer(spell, i, itemstack);
+                            spellList.save(itemstack);
+                            event.accept(itemstack);
+                        }
+                    });
+        }
+    }
 }

@@ -5,6 +5,7 @@ import com.google.common.collect.*;
 import io.redspace.ironsspellbooks.api.item.weapons.*;
 import io.redspace.ironsspellbooks.api.registry.*;
 import io.redspace.ironsspellbooks.api.spells.*;
+import io.redspace.ironsspellbooks.item.UpgradeOrbItem;
 import io.redspace.ironsspellbooks.item.curios.*;
 import io.redspace.ironsspellbooks.item.spell_books.*;
 import io.redspace.ironsspellbooks.item.weapons.*;
@@ -32,7 +33,7 @@ public class ItemRegistry {
         ITEMS.register(eventBus);
     }
 
-    // Materials::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    // Materials::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     private static Supplier<? extends net.minecraft.world.item.Item> Item;
     public static final RegistryObject<Item> BASIC_SHARD = ITEMS.register("basic_shard", () ->
             new Basic_Shard(ItemPropertiesHelper.material()));
@@ -57,9 +58,9 @@ public class ItemRegistry {
     public static final RegistryObject<Item> AQUATA_SHARD = ITEMS.register("aquata_shard", () ->
             new Aquata_Shard(ItemPropertiesHelper.material())); // Water
     public static final RegistryObject<Item> AERO_SHARD = ITEMS.register("aero_shard", () ->
-            new Aero_Shard(ItemPropertiesHelper.material())); // Air
+            new Aero_Shard(ItemPropertiesHelper.material())); // Wind
     public static final RegistryObject<Item> UMBRA_SHARD = ITEMS.register("umbra_shard", () ->
-            new Umbra_Shard(ItemPropertiesHelper.material())); // Darkness
+            new Umbra_Shard(ItemPropertiesHelper.material())); // Dark
     public static final RegistryObject<Item> LUMINUS_SHARD = ITEMS.register("luminus_shard", () ->
             new Luminus_Shard(ItemPropertiesHelper.material())); // Light
     public static final RegistryObject<Item> ULTIMARA_SHARD = ITEMS.register("ultimara_shard", () ->
@@ -69,12 +70,37 @@ public class ItemRegistry {
     public static final RegistryObject<Item> NIHILITY_SHARD = ITEMS.register("nihility_shard", () ->
             new Nihility_Shard(ItemPropertiesHelper.material())); // Nihility
 
-    // Tools (!!!TESTING!!!):::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    // Runes (ISS)::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    public static final RegistryObject<Item> WIND_RUNE = ITEMS.register("wind_rune", () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> WATER_RUNE = ITEMS.register("water_rune", () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> LIGHT_RUNE = ITEMS.register("light_rune", () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> DARK_RUNE = ITEMS.register("dark_rune", () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> MIGHT_RUNE = ITEMS.register("might_rune", () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> FINALITY_RUNE = ITEMS.register("finality_rune", () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> NIHILITY_RUNE = ITEMS.register("nihility_rune", () -> new Item(new Item.Properties().stacksTo(64)));
+
+    // Upgrade runes (ISS)::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    public static final RegistryObject<Item> WIND_UPGRADE_ORB = ITEMS.register("wind_upgrade_orb",
+            () -> new UpgradeOrbItem(TSpellRegistry.UpgradeTypes.WIND_SPELL_POWER, new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> WATER_UPGRADE_ORB = ITEMS.register("water_upgrade_orb",
+            () -> new UpgradeOrbItem(TSpellRegistry.UpgradeTypes.WIND_SPELL_POWER, new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> LIGHT_UPGRADE_ORB = ITEMS.register("light_upgrade_orb",
+            () -> new UpgradeOrbItem(TSpellRegistry.UpgradeTypes.WIND_SPELL_POWER, new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> DARK_UPGRADE_ORB = ITEMS.register("dark_upgrade_orb",
+            () -> new UpgradeOrbItem(TSpellRegistry.UpgradeTypes.WIND_SPELL_POWER, new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> MIGHT_UPGRADE_ORB = ITEMS.register("might_upgrade_orb",
+            () -> new UpgradeOrbItem(TSpellRegistry.UpgradeTypes.WIND_SPELL_POWER, new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> FINALITY_UPGRADE_ORB = ITEMS.register("finality_upgrade_orb",
+            () -> new UpgradeOrbItem(TSpellRegistry.UpgradeTypes.WIND_SPELL_POWER, new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> NIHILITY_UPGRADE_ORB = ITEMS.register("nihility_upgrade_orb",
+            () -> new UpgradeOrbItem(TSpellRegistry.UpgradeTypes.WIND_SPELL_POWER, new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
+
+    // Tools (!!!TESTING!!!)::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> PREDATOR_PICKAXE = ITEMS.register
             ("predator_pickaxe", () -> new PickaxeItem(ThalrathisTier.NATURE,4, -1.0F,
                     new Item.Properties().rarity(Rarity.EPIC)));
 
-    // SpellBooks (!!!TESTING!!!):::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    // SpellBooks (!!!TESTING!!!):::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> DRAGONMANCERS_OATHBOOK = ITEMS.register
             ("dragonmancers_oathbook", () -> new SimpleAttributeSpellBook // Ice and Fire: SpellBooks replacement for Community Edition fork
                     (12, SpellRarity.LEGENDARY, AttributeRegistry.SPELL_POWER.get(), 0.2D, 300));
@@ -212,7 +238,7 @@ public class ItemRegistry {
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
-    // Accessories (!!!TESTING!!!):::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    // Accessories (!!!TESTING!!!)::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<CurioBaseItem> MANA_RING1 = ITEMS.register("uncommon_mana_ring", () ->
             new SimpleAttributeCurio(ItemPropertiesHelper.equipment().stacksTo(1), AttributeRegistry.MAX_MANA.get(),
                     new AttributeModifier("mana", 200,
@@ -259,8 +285,7 @@ public class ItemRegistry {
                             AttributeModifier.Operation.ADDITION)));
 
 
-    // Magic staffs (!!!TESTING!!!)::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-    // Ice and Fire: SpellBooks replacement for Community Edition fork:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    // Magic staffs (!!!TESTING!!!):::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> DRAGON_PRIEST_STAFF = ITEMS.register("dragon_priest_staff",
             () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 6, -3,
                     Map.of(AttributeRegistry.FIRE_SPELL_POWER.get(),
@@ -302,10 +327,21 @@ public class ItemRegistry {
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.20,
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
-    // Weapons:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+    public static final RegistryObject<Item> AIR_STAFF = ITEMS.register("air_staff",
+            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 7, -3,
+                    Map.of(TAttributeRegistry.WIND_SPELL_POWER.get(),
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
+                                    AttributeModifier.Operation.MULTIPLY_BASE),
+                            AttributeRegistry.COOLDOWN_REDUCTION.get(),
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.20,
+                                    AttributeModifier.Operation.MULTIPLY_BASE))));
+
+    // Weapons::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     private static SpellDataRegistryHolder holder;
-    // Candle weapons (animated)::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-    public static final RegistryObject<Item> WAXWEAVER = ITEMS.register("waxweaver_claymore", () -> // ANIMATED::::::::::::::::::::::::::::
+
+    // Candle weapons (animated)::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    public static final RegistryObject<Item> WAXWEAVER = ITEMS.register("waxweaver_claymore", () -> // ANIMATED:::
             new MagicSwordItem(Tiers.NETHERITE, 99, -2.8f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
@@ -320,7 +356,7 @@ public class ItemRegistry {
                     ),
                     (new Item.Properties()).rarity(Rarity.RARE)));
 
-    public static final RegistryObject<Item> WICKPIERCER = ITEMS.register("wickpiercer_lance", () -> // ANIMATED::::::::::::::::::::::::::::
+    public static final RegistryObject<Item> WICKPIERCER = ITEMS.register("wickpiercer_lance", () -> // ANIMATED::
             new MagicSwordItem(Tiers.NETHERITE, 99, -2.8f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
@@ -334,7 +370,8 @@ public class ItemRegistry {
                                     0.5, AttributeModifier.Operation.MULTIPLY_BASE)
                     ),
                     (new Item.Properties()).rarity(Rarity.RARE)));
-    // Aquatic weapon::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+    // Aquatic weapon:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> AQUATIC_PLACEHOLDER1 = ITEMS.register("aquantic_sacred_katana", () ->
             new MagicSwordItem(Tiers.NETHERITE, 99, -2.8f, SpellDataRegistryHolder.of(),
                     Map.of(
@@ -364,7 +401,8 @@ public class ItemRegistry {
                                     0.5, AttributeModifier.Operation.MULTIPLY_BASE)
                     ),
                     (new Item.Properties()).rarity(Rarity.RARE)));
-    // Cybernetic weapon::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+    // Cybernetic weapon::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> CYBERNETIC_PLACEHOLDER1 = ITEMS.register("cybernetic_katana", () ->
             new MagicSwordItem(Tiers.NETHERITE, 90, -2.0f, SpellDataRegistryHolder.of(),
                     Map.of(
@@ -440,7 +478,7 @@ public class ItemRegistry {
                     ),
                     (new Item.Properties()).rarity(Rarity.RARE)));
 
-    // Blood Weapons::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    // Blood Weapons::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> SANGUREN_KATANA = ITEMS.register("sanguren_katana", () ->
             new MagicSwordItem(ThalrathisTier.BLOOD, 170, -2.0f, SpellDataRegistryHolder.of(
                     new SpellDataRegistryHolder(SpellRegistry.BLOOD_STEP_SPELL, 5),
@@ -1122,9 +1160,7 @@ public class ItemRegistry {
 
     // Nature weapons::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> ISCARYNN_HEAVY_AXE = ITEMS.register("iscarynn_heavy_axe", () ->
-            new MagicSwordItem(ThalrathisTier.NATURE, 130, -2.8f, SpellDataRegistryHolder.of(
-                    new SpellDataRegistryHolder(SpellRegistry.FROST_STEP_SPELL, 10),
-                    new SpellDataRegistryHolder(SpellRegistry.ICICLE_SPELL, 10)),
+            new MagicSwordItem(ThalrathisTier.NATURE, 130, -2.8f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
@@ -1139,9 +1175,7 @@ public class ItemRegistry {
                     (new Item.Properties()).rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> SOLPHEER_CLAYMORE = ITEMS.register("solpheer_claymore", () ->
-            new MagicSwordItem(ThalrathisTier.NATURE, 150, -2.6f, SpellDataRegistryHolder.of(
-                    new SpellDataRegistryHolder(SpellRegistry.FROST_STEP_SPELL, 10),
-                    new SpellDataRegistryHolder(SpellRegistry.ICICLE_SPELL, 10)),
+            new MagicSwordItem(ThalrathisTier.NATURE, 150, -2.6f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
@@ -1156,9 +1190,7 @@ public class ItemRegistry {
                     (new Item.Properties()).rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> SELENIAR_SCYTHE = ITEMS.register("seleniar_scythe", () ->
-            new MagicSwordItem(ThalrathisTier.NATURE, 120, -2.5f, SpellDataRegistryHolder.of(
-                    new SpellDataRegistryHolder(SpellRegistry.FROST_STEP_SPELL, 10),
-                    new SpellDataRegistryHolder(SpellRegistry.ICICLE_SPELL, 10)),
+            new MagicSwordItem(ThalrathisTier.NATURE, 120, -2.5f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
