@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Specification-Title: Thalrathis
-Specification-Vendor: Bishepp
+Specification-Vendor: Bishepp, Adonis
 Specification-Version: 1
 Implementation-Title: Thalrathis
-Implementation-Version: 1.0.0-beta
-Implementation-Vendor: Bishepp
-Implementation-Timestamp: 2025-01-23T17:31:13+0300
+Implementation-Version: 1.1.0-beta
+Implementation-Vendor: Bishepp, Adonis
+Implementation-Timestamp: 2025-03-06T18:26:18+0300
 

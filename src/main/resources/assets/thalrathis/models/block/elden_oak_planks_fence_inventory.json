@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "dungeons_and_combat:block/elden_oak_planks",
-    "particle": "dungeons_and_combat:block/elden_oak_planks"
-  },
-  "render_type": "solid"
-}

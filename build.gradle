@@ -63,6 +63,10 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     maven {
+        name = 'creeperhost'
+        url = 'https://maven.creeperhost.net/'
+    }
+    maven {
         name = "Iron's Maven - Release"
         url = "https://code.redspace.io/releases"
     }
@@ -73,7 +77,14 @@ repositories {
     }
 
     maven { url = "https://maven.enginehub.org/repo/" }
-    maven { url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/" }
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
+        }
+    }
     maven { url = "https://maven.theillusivec4.top" }
     maven { url = "https://cursemaven.com" }
     maven { url = "https://maven.blamejared.com" }
@@ -99,6 +110,7 @@ dependencies {
 
     // GECKOLIB ***************************************************************************************************
     implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${geckolib_version}")
+    implementation("com.eliotlash.mclib:mclib:20")
 
     // CAELUS *****************************************************************************************************
     compileOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:${caelus_version}:api")

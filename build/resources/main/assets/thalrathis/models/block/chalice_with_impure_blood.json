@@ -1,9 +1,0 @@
-{
-  "parent": "dungeons_and_combat:custom/chalice_impure",
-  "textures": {
-    "all": "dungeons_and_combat:block/chalice_with_impure_blood",
-    "particle": "dungeons_and_combat:block/chalice_with_impure_blood",
-    "2": "dungeons_and_combat:block/chalice_with_impure_blood"
-  },
-  "render_type": "cutout_mipped"
-}

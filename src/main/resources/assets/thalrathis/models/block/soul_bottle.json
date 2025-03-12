@@ -1,9 +1,0 @@
-{
-  "parent": "dungeons_and_combat:custom/soul_bottle",
-  "textures": {
-    "all": "dungeons_and_combat:block/soul_bottle",
-    "particle": "dungeons_and_combat:block/soul_bottle",
-    "0": "dungeons_and_combat:block/soul_bottle"
-  },
-  "render_type": "cutout_mipped"
-}

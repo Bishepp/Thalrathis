@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dungeons_and_combat:block/crimson_brick_altern",
-    "particle": "dungeons_and_combat:block/crimson_brick_altern"
-  },
-  "render_type": "solid"
-}

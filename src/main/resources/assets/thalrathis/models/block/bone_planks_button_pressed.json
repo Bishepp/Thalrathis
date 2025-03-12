@@ -1,8 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "particle": "dungeons_and_combat:block/bone_plank",
-    "texture": "dungeons_and_combat:block/bone_plank"
-  },
-  "render_type": "solid"
-}

@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Bishepp/Thalrathis/issues" #optional
 
 [[mods]] #mandatory
 modId="thalrathis" #mandatory
-version="1.1.0-beta" #mandatory
+version="1.1.2-beta" #mandatory
 displayName="Thalrathis" #mandatory
 displayURL="https://github.com/Bishepp/Thalrathis" #optional
 logoFile="thalrathis_long_logo.png" #optional

@@ -1,9 +1,0 @@
-{
-  "parent": "dungeons_and_combat:custom/chalice",
-  "textures": {
-    "all": "dungeons_and_combat:block/chalice",
-    "particle": "dungeons_and_combat:block/chalice",
-    "0": "dungeons_and_combat:block/chalice"
-  },
-  "render_type": "cutout_mipped"
-}

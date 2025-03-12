@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dungeons_and_combat:block/desolate_dirt",
-    "particle": "dungeons_and_combat:block/desolate_dirt"
-  },
-  "render_type": "solid"
-}

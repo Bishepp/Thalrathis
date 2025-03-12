@@ -1,9 +1,0 @@
-{
-  "parent": "dungeons_and_combat:custom/karnath_hand",
-  "textures": {
-    "all": "dungeons_and_combat:block/kamath_hand",
-    "particle": "dungeons_and_combat:block/kamath_hand",
-    "0": "dungeons_and_combat:block/kamath_hand"
-  },
-  "render_type": "cutout"
-}

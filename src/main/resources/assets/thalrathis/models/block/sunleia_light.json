@@ -1,9 +1,0 @@
-{
-  "parent": "dungeons_and_combat:custom/sunleia_light",
-  "textures": {
-    "all": "dungeons_and_combat:block/sunleia_light",
-    "particle": "dungeons_and_combat:block/sunleia_light",
-    "0": "dungeons_and_combat:block/sunleia_light"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dungeons_and_combat:block/blessed_gold_block",
-    "particle": "dungeons_and_combat:block/blessed_gold_block"
-  },
-  "render_type": "solid"
-}

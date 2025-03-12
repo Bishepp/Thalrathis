@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dungeons_and_combat:block/cobblestone_bricks_mossy_alternative",
-    "particle": "dungeons_and_combat:block/cobblestone_bricks_mossy_alternative"
-  },
-  "render_type": "solid"
-}

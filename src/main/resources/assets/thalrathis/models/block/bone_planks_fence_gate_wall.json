@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_fence_gate_wall",
-  "textures": {
-    "particle": "dungeons_and_combat:block/bone_plank",
-    "texture": "dungeons_and_combat:block/bone_plank"
-  },
-  "render_type": "solid"
-}

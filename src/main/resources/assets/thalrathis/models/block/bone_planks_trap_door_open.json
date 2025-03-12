@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_open",
-  "textures": {
-    "texture": "dungeons_and_combat:block/bone_plank_trapdoor",
-    "particle": "dungeons_and_combat:block/bone_plank_trapdoor"
-  },
-  "render_type": "cutout"
-}

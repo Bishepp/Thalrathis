@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_side",
-  "textures": {
-    "texture": "dungeons_and_combat:block/bone_plank",
-    "particle": "dungeons_and_combat:block/bone_plank"
-  },
-  "render_type": "solid"
-}

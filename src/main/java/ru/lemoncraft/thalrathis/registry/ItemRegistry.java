@@ -12,8 +12,8 @@ import io.redspace.ironsspellbooks.item.weapons.*;
 
 import net.minecraft.world.entity.ai.attributes.*;
 import net.minecraft.world.item.*;
+import net.minecraftforge.eventbus.api.IEventBus;
 import ru.lemoncraft.thalrathis.Thalrathis;
-import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.registries.*;
 
 import ru.lemoncraft.thalrathis.common.item.armor.*;
@@ -26,12 +26,10 @@ import java.util.function.*;
 
 
 public class ItemRegistry {
-    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Thalrathis.MODID);
+    private static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(ForgeRegistries.ITEMS, Thalrathis.MODID);
     public static Collection<RegistryObject<Item>> getThalrathisItems()
     {return ITEMS.getEntries();}
-    public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
-    }
 
     // Materials::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     private static Supplier<? extends net.minecraft.world.item.Item> Item;
@@ -2142,4 +2140,8 @@ public class ItemRegistry {
             () -> new LightningDragonPriestArmorItem(ArmorItem.Type.LEGGINGS, ItemPropertiesHelper.equipment().fireResistant()));
     public static final RegistryObject<Item> LIGHTNING_DRAGON_PRIEST_BOOTS = ITEMS.register("lightning_dragon_priest_boots",
             () -> new LightningDragonPriestArmorItem(ArmorItem.Type.BOOTS, ItemPropertiesHelper.equipment().fireResistant()));
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
 }

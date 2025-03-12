@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_fence_gate",
-  "textures": {
-    "particle": "dungeons_and_combat:block/elden_oak_planks",
-    "texture": "dungeons_and_combat:block/elden_oak_planks"
-  },
-  "render_type": "solid"
-}

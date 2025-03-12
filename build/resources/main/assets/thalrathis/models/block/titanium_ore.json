@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dungeons_and_combat:block/titanium_ore",
-    "particle": "dungeons_and_combat:block/titanium_ore"
-  },
-  "render_type": "solid"
-}

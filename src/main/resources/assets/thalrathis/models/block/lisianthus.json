@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dungeons_and_combat:block/lisianthus",
-    "particle": "dungeons_and_combat:block/lisianthus"
-  },
-  "render_type": "cutout"
-}

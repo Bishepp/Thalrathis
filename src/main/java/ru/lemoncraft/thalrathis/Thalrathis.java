@@ -5,6 +5,7 @@ import com.mojang.logging.*;
 import io.redspace.ironsspellbooks.item.*;
 import io.redspace.ironsspellbooks.render.*;
 
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.resources.*;
 import net.minecraft.util.*;
 
@@ -18,10 +19,15 @@ import net.minecraftforge.fml.javafmlmod.*;
 
 import org.jetbrains.annotations.NotNull;
 
+import ru.lemoncraft.thalrathis.common.block.ModBlocks;
+import ru.lemoncraft.thalrathis.common.block.entity.ModBlockEntities;
+import ru.lemoncraft.thalrathis.common.block.entity.client.*;
+import ru.lemoncraft.thalrathis.common.item.ModItems;
 import ru.lemoncraft.thalrathis.registry.*;
 
 import org.slf4j.*;
 
+import software.bernie.geckolib.GeckoLib;
 import top.theillusivec4.curios.api.client.*;
 
 
@@ -38,6 +44,12 @@ public class Thalrathis {
         ItemRegistry.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         CreativeTabRegistry.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
+        GeckoLib.initialize();
 
         TSchoolRegistry.register(modEventBus);
         TSpellRegistry.register(modEventBus);
@@ -63,6 +75,10 @@ public class Thalrathis {
                         item.get() instanceof SpellBook).forEach((item) ->
                         CuriosRendererRegistry.register(item.get(), SpellBookCurioRenderer::new));
             });
+
+            BlockEntityRenderers.register(ModBlockEntities.CHIBI_BISHEPP_ENTITY.get(), ChibiBisheppBlockRenderer::new);
+            BlockEntityRenderers.register(ModBlockEntities.CHIBI_MRKILLERS_ENTITY.get(), ChibiMrKillersBlockRenderer::new);
+            BlockEntityRenderers.register(ModBlockEntities.CHIBI_LEMON_ENTITY.get(), ChibiLemonBlockRenderer::new);
         }
     }
     public static ResourceLocation id(@NotNull String path) {
