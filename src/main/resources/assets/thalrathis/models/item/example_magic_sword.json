@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "thalrathis:item/example_magic_sword"
-  }
-}

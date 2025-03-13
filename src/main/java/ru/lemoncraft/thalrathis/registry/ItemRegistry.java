@@ -28,8 +28,10 @@ import java.util.function.*;
 public class ItemRegistry {
     private static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Thalrathis.MODID);
-    public static Collection<RegistryObject<Item>> getThalrathisItems()
-    {return ITEMS.getEntries();}
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
 
     // Materials::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     private static Supplier<? extends net.minecraft.world.item.Item> Item;
@@ -103,7 +105,8 @@ public class ItemRegistry {
             ("dragonmancers_oathbook", () -> new SimpleAttributeSpellBook // Ice and Fire: SpellBooks replacement for Community Edition fork
                     (12, SpellRarity.LEGENDARY, AttributeRegistry.SPELL_POWER.get(), 0.2D, 300));
 
-    public static final RegistryObject<Item> YOMAYO = ITEMS.register("yomayo_spell_book", () -> {
+    public static final RegistryObject<Item> YOMAYO = ITEMS.register
+            ("yomayo_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.SPELL_POWER.get(),
                 new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 5.0,
@@ -2141,7 +2144,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> LIGHTNING_DRAGON_PRIEST_BOOTS = ITEMS.register("lightning_dragon_priest_boots",
             () -> new LightningDragonPriestArmorItem(ArmorItem.Type.BOOTS, ItemPropertiesHelper.equipment().fireResistant()));
 
-    public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
+    public static Collection<RegistryObject<Item>> getThalrathisItems() {
+        return ITEMS.getEntries();
     }
 }

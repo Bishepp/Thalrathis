@@ -70,10 +70,11 @@ public class Thalrathis {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             // curios :3c
-            event.enqueueWork(() -> ItemRegistry.getThalrathisItems().stream().filter(item ->
-                    item.get() instanceof SpellBook).forEach((item) ->
-                    CuriosRendererRegistry.register(item.get(), SpellBookCurioRenderer::new)));
-
+            event.enqueueWork(() -> {
+            ItemRegistry.getThalrathisItems().stream().filter(
+                    item -> item.get() instanceof SpellBook).forEach((item) ->
+                    CuriosRendererRegistry.register(item.get(), SpellBookCurioRenderer::new));
+            });
             BlockEntityRenderers.register(ModBlockEntities.CHIBI_BISHEPP_ENTITY.get(), ChibiBisheppBlockRenderer::new);
             BlockEntityRenderers.register(ModBlockEntities.CHIBI_MRKILLERS_ENTITY.get(), ChibiMrKillersBlockRenderer::new);
             BlockEntityRenderers.register(ModBlockEntities.CHIBI_LEMON_ENTITY.get(), ChibiLemonBlockRenderer::new);

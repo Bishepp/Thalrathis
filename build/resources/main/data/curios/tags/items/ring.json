@@ -9,13 +9,6 @@
     "thalrathis:divine_mana_ring",
     "thalrathis:demonic_mana_ring",
     "thalrathis:chaotic_mana_ring",
-    "thalrathis:super_mana_ring",
-    "thalrathis:affinity_ring_wind",
-    "thalrathis:affinity_ring_water",
-    "thalrathis:affinity_ring_light",
-    "thalrathis:affinity_ring_dark",
-    "thalrathis:affinity_ring_might",
-    "thalrathis:affinity_ring_finality",
-    "thalrathis:affinity_ring_nihility"
+    "thalrathis:super_mana_ring"
   ]
 }

@@ -145,29 +145,29 @@ Reading Input: D:\testingcode\Thalrathis\build\libs\thalrathis-1.1.2-beta.jar
 Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoItemRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/BlockEntityWithoutLevelRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: renderByItem -> m_108829_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiLemonBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/armor/ExtendedArmorItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/ArmorItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
-Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoBlockRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/blockentity/BlockEntityRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: render -> m_6922_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiLemonBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiLemonBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiLemonBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiLemonBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiLemonBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiLemonBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiMrKillersBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/block/custom/ChibiBisheppBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoBlockRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/blockentity/BlockEntityRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: render -> m_6922_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/armor/ExtendedArmorItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/ArmorItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/armor/ExtendedArmorMaterials/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/armor/ExtendedArmorMaterials/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/armor/ExtendedArmorMaterials/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -186,11 +186,11 @@ Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/tools/Th
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/tools/ThalrathisTier/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/tools/ThalrathisTier/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/common/item/tools/ThalrathisTier/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for ru/lemoncraft/thalrathis/data/TEntityTypeTags/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/EntityTypeTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/data/TItemTags/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for ru/lemoncraft/thalrathis/data/TEntityTypeTags/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/EntityTypeTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for io/redspace/ironsspellbooks/api/item/weapons/ExtendedSwordItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/SwordItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/spells/air/UpdraftEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Entity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/spells/air/UpdraftEntity/tick()V from net/minecraft/world/entity/Entity/tick()V: tick -> m_8119_
 Conflicting propagated mapping for ru/lemoncraft/thalrathis/spells/air/UpdraftEntity/defineSynchedData()V from net/minecraft/world/entity/Entity/defineSynchedData()V: defineSynchedData -> m_8097_
@@ -218,8 +218,8 @@ Conflicting propagated mapping for io/redspace/ironsspellbooks/item/weapons/Staf
 Conflicting propagated mapping for io/redspace/ironsspellbooks/item/SpellBook/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for io/redspace/ironsspellbooks/item/UpgradeOrbItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for io/redspace/ironsspellbooks/item/UpgradeOrbItem/getName(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/item/Item/getName(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;: getName -> m_7626_
-Conflicting propagated mapping for io/redspace/ironsspellbooks/entity/spells/target_area/TargetedAreaEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/Entity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
 Conflicting propagated mapping for io/redspace/ironsspellbooks/damage/SpellDamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for io/redspace/ironsspellbooks/entity/spells/target_area/TargetedAreaEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/Entity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
 Conflicting propagated mapping for io/redspace/ironsspellbooks/entity/spells/target_area/TargetedAreaEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Entity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
 Conflicting propagated mapping for io/redspace/ironsspellbooks/entity/spells/target_area/TargetedAreaEntity/onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V from net/minecraft/world/entity/Entity/onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V: onSyncedDataUpdated -> m_7350_
 Conflicting propagated mapping for io/redspace/ironsspellbooks/entity/spells/target_area/TargetedAreaEntity/recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V from net/minecraft/world/entity/Entity/recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V: recreateFromPacket -> m_141965_
@@ -247,8 +247,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/animations/lightning_dragon_priest.animation.json
   assets/thalrathis/animations/wizard_armor_animation.json
   assets/thalrathis/geo/
-  assets/thalrathis/geo/block/
-  assets/thalrathis/geo/block/chibi_bishepp.geo.json
   assets/thalrathis/geo/blood_armor.geo.json
   assets/thalrathis/geo/chibi_bishepp.geo.json
   assets/thalrathis/geo/chibi_lemon.geo.json
@@ -273,33 +271,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/block/chibi_bishepp.json
   assets/thalrathis/models/block/chibi_lemon.json
   assets/thalrathis/models/block/chibi_mrkillers.json
-  assets/thalrathis/models/custom/
-  assets/thalrathis/models/custom/chalice.json
-  assets/thalrathis/models/custom/chalice_blood.json
-  assets/thalrathis/models/custom/chalice_divine.json
-  assets/thalrathis/models/custom/chalice_impure.json
-  assets/thalrathis/models/custom/cursed_molten_blazing_fists.json
-  assets/thalrathis/models/custom/head.json
-  assets/thalrathis/models/custom/karnath_hand.json
-  assets/thalrathis/models/custom/linenrope.json
-  assets/thalrathis/models/custom/molten_blazing_fists.json
-  assets/thalrathis/models/custom/pileofbonesstageone.json
-  assets/thalrathis/models/custom/pileofbonesstagethree.json
-  assets/thalrathis/models/custom/pileofbonesstagetwo.json
-  assets/thalrathis/models/custom/pyroclastic_scepter.json
-  assets/thalrathis/models/custom/sacrificial_table.json
-  assets/thalrathis/models/custom/skull_chest.json
-  assets/thalrathis/models/custom/solidgoldclaws.json
-  assets/thalrathis/models/custom/soul_bottle.json
-  assets/thalrathis/models/custom/spiketrap.json
-  assets/thalrathis/models/custom/sunleia_light.json
-  assets/thalrathis/models/custom/sunleia_light_off.json
-  assets/thalrathis/models/custom/tomahawk.json
-  assets/thalrathis/models/displaysettings/
-  assets/thalrathis/models/displaysettings/fairystaffanimated.geo.json
-  assets/thalrathis/models/displaysettings/fairystaffanimated.item.json
-  assets/thalrathis/models/displaysettings/sanguinescepter.item.json
-  assets/thalrathis/models/displaysettings/scepterofcompensation.item.json
   assets/thalrathis/models/item/
   assets/thalrathis/models/item/abominable_katana.json
   assets/thalrathis/models/item/abominable_scythe.json
@@ -307,13 +278,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/aciddemon_glaive.json
   assets/thalrathis/models/item/aero_rune.json
   assets/thalrathis/models/item/aero_shard.json
-  assets/thalrathis/models/item/affinity_ring_dark.json
-  assets/thalrathis/models/item/affinity_ring_finality.json
-  assets/thalrathis/models/item/affinity_ring_light.json
-  assets/thalrathis/models/item/affinity_ring_might.json
-  assets/thalrathis/models/item/affinity_ring_nihility.json
-  assets/thalrathis/models/item/affinity_ring_water.json
-  assets/thalrathis/models/item/affinity_ring_wind.json
   assets/thalrathis/models/item/air_staff.json
   assets/thalrathis/models/item/amethyst_shuriken.json
   assets/thalrathis/models/item/ancient_royal_great_sword.json
@@ -326,24 +290,17 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/awakened_lichblade_claymore.json
   assets/thalrathis/models/item/blacksmith_boots.json
   assets/thalrathis/models/item/blacksmith_chestplate.json
-  assets/thalrathis/models/item/blacksmith_hammer.json
   assets/thalrathis/models/item/blacksmith_helmet.json
   assets/thalrathis/models/item/blacksmith_leggings.json
-  assets/thalrathis/models/item/blazing_block.json
-  assets/thalrathis/models/item/blazing_core.json
-  assets/thalrathis/models/item/blazing_ingot.json
   assets/thalrathis/models/item/blood_armor_boots.json
   assets/thalrathis/models/item/blood_armor_chestplate.json
   assets/thalrathis/models/item/blood_armor_helmet.json
   assets/thalrathis/models/item/blood_armor_leggings.json
-  assets/thalrathis/models/item/blood_orb.json
-  assets/thalrathis/models/item/blood_vial.json
   assets/thalrathis/models/item/bloodedge.json
   assets/thalrathis/models/item/bloodydeath_scythe.json
   assets/thalrathis/models/item/bramblethorn_sword.json
   assets/thalrathis/models/item/brimstone_claymore.json
   assets/thalrathis/models/item/chaotic_mana_ring.json
-  assets/thalrathis/models/item/chaotic_staff.json
   assets/thalrathis/models/item/chibi_bishepp.json
   assets/thalrathis/models/item/chibi_lemon.json
   assets/thalrathis/models/item/chibi_mrkillers.json
@@ -357,7 +314,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/crescentrose.json
   assets/thalrathis/models/item/crimson_dragon_priest_staff.json
   assets/thalrathis/models/item/crimson_long_sword.json
-  assets/thalrathis/models/item/cursed_soul.json
   assets/thalrathis/models/item/cyber_glaive.json
   assets/thalrathis/models/item/cyber_katana.json
   assets/thalrathis/models/item/cybernetic_dagger.json
@@ -367,18 +323,11 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/dainsleif.json
   assets/thalrathis/models/item/dark_blade.json
   assets/thalrathis/models/item/dark_cleaver.json
-  assets/thalrathis/models/item/dark_metal_boots.json
-  assets/thalrathis/models/item/dark_metal_chestplate.json
-  assets/thalrathis/models/item/dark_metal_helmet.json
-  assets/thalrathis/models/item/dark_metal_leggings.json
   assets/thalrathis/models/item/dark_rune.json
   assets/thalrathis/models/item/dark_upgrade_orb.json
   assets/thalrathis/models/item/dead_sword.json
   assets/thalrathis/models/item/death_knight_claymore.json
   assets/thalrathis/models/item/death_knight_dagger.json
-  assets/thalrathis/models/item/delta_shield.json
-  assets/thalrathis/models/item/delta_shield_0.json
-  assets/thalrathis/models/item/delta_sword.json
   assets/thalrathis/models/item/demigodsunholy_claymore.json
   assets/thalrathis/models/item/demigodsunholy_halberd.json
   assets/thalrathis/models/item/demonic_claymore.json
@@ -404,7 +353,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/eldritch_armor_chestplate.json
   assets/thalrathis/models/item/eldritch_armor_helmet.json
   assets/thalrathis/models/item/eldritch_armor_leggings.json
-  assets/thalrathis/models/item/eldritch_heart.json
   assets/thalrathis/models/item/ender_armor_boots.json
   assets/thalrathis/models/item/ender_armor_chestplate.json
   assets/thalrathis/models/item/ender_armor_helmet.json
@@ -413,25 +361,16 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/epic_mana_ring.json
   assets/thalrathis/models/item/epicsword.json
   assets/thalrathis/models/item/estoc.json
-  assets/thalrathis/models/item/estus_flask.json
   assets/thalrathis/models/item/eviscera_scythe.json
   assets/thalrathis/models/item/evocation_armor_boots.json
   assets/thalrathis/models/item/evocation_armor_chestplate.json
   assets/thalrathis/models/item/evocation_armor_helmet.json
   assets/thalrathis/models/item/evocation_armor_leggings.json
-  assets/thalrathis/models/item/example_magic_sword.json
   assets/thalrathis/models/item/excalibur_claymore.json
   assets/thalrathis/models/item/excalit_coral_blade.json
   assets/thalrathis/models/item/executioner_axe.json
-  assets/thalrathis/models/item/exiled_chestplate.json
-  assets/thalrathis/models/item/exiled_helmet.json
-  assets/thalrathis/models/item/fairy_dust.json
-  assets/thalrathis/models/item/fairy_scepter.json
-  assets/thalrathis/models/item/fairy_wing.json
-  assets/thalrathis/models/item/fairy_wings.json
   assets/thalrathis/models/item/fallengod_spear.json
   assets/thalrathis/models/item/fallengod_sword.json
-  assets/thalrathis/models/item/fang_necklace.json
   assets/thalrathis/models/item/finality_armor_boots.json
   assets/thalrathis/models/item/finality_armor_chestplate.json
   assets/thalrathis/models/item/finality_armor_helmet.json
@@ -453,16 +392,9 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/fire_spell_book.json
   assets/thalrathis/models/item/flamara_rune.json
   assets/thalrathis/models/item/flamara_shard.json
-  assets/thalrathis/models/item/flaming_gloves.json
-  assets/thalrathis/models/item/fleshy_cloth.json
-  assets/thalrathis/models/item/fleshy_cloth_block.json
   assets/thalrathis/models/item/floral_long_sword.json
   assets/thalrathis/models/item/floral_rapier.json
   assets/thalrathis/models/item/forest_guardian_glaive.json
-  assets/thalrathis/models/item/forgotten_knight_boots.json
-  assets/thalrathis/models/item/forgotten_knight_chestplate.json
-  assets/thalrathis/models/item/forgotten_knight_helmet.json
-  assets/thalrathis/models/item/forgotten_knight_leggings.json
   assets/thalrathis/models/item/frost_axe.json
   assets/thalrathis/models/item/frost_claymore.json
   assets/thalrathis/models/item/frost_scythe.json
@@ -473,25 +405,11 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/gelidus_rune.json
   assets/thalrathis/models/item/gelidus_shard.json
   assets/thalrathis/models/item/glacivane_scythe.json
-  assets/thalrathis/models/item/goat_skull_helmet.json
   assets/thalrathis/models/item/godly_mana_ring.json
-  assets/thalrathis/models/item/gold_lance.json
-  assets/thalrathis/models/item/golden_boots.json
-  assets/thalrathis/models/item/golden_chestplate.json
-  assets/thalrathis/models/item/golden_glaive.json
-  assets/thalrathis/models/item/golden_helmet.json
-  assets/thalrathis/models/item/golden_lance.json
-  assets/thalrathis/models/item/golden_leggings.json
-  assets/thalrathis/models/item/golden_saber.json
-  assets/thalrathis/models/item/golden_shield.json
-  assets/thalrathis/models/item/golden_shield_0.json
-  assets/thalrathis/models/item/golden_sickle.json
   assets/thalrathis/models/item/greatsword_oath.json
   assets/thalrathis/models/item/green_scythe.json
-  assets/thalrathis/models/item/hammer.json
   assets/thalrathis/models/item/hand_axe.json
   assets/thalrathis/models/item/hearthflame_hammer.json
-  assets/thalrathis/models/item/heavy_hammer.json
   assets/thalrathis/models/item/heavy_shield.json
   assets/thalrathis/models/item/heavy_shield_0.json
   assets/thalrathis/models/item/hell_ring.json
@@ -505,8 +423,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/hood_of_shame_helmet.json
   assets/thalrathis/models/item/horde_torch_sword.json
   assets/thalrathis/models/item/hornetsneedle.json
-  assets/thalrathis/models/item/horus_klauen.json
-  assets/thalrathis/models/item/horuso_feather.json
   assets/thalrathis/models/item/ice_armor_boots.json
   assets/thalrathis/models/item/ice_armor_chestplate.json
   assets/thalrathis/models/item/ice_armor_helmet.json
@@ -516,40 +432,14 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/ice_dragon_priest_helmet.json
   assets/thalrathis/models/item/ice_dragon_priest_leggings.json
   assets/thalrathis/models/item/icewhisper_heavy_axe.json
-  assets/thalrathis/models/item/igenous_molten_shield.json
-  assets/thalrathis/models/item/igenous_molten_shield_0.json
-  assets/thalrathis/models/item/igneous.json
-  assets/thalrathis/models/item/igneous_blackstone_brick.json
-  assets/thalrathis/models/item/igneous_blackstone_brick_slab.json
-  assets/thalrathis/models/item/igneous_blackstone_brick_stairs.json
-  assets/thalrathis/models/item/igneous_blackstone_brick_wall.json
-  assets/thalrathis/models/item/igneous_block.json
-  assets/thalrathis/models/item/igneous_ore.json
   assets/thalrathis/models/item/inferis_heavy_axe.json
-  assets/thalrathis/models/item/iron_dagger.json
-  assets/thalrathis/models/item/iron_glaive.json
-  assets/thalrathis/models/item/iron_metal_boots.json
-  assets/thalrathis/models/item/iron_metal_chestplate.json
-  assets/thalrathis/models/item/iron_metal_helmet.json
-  assets/thalrathis/models/item/iron_metal_leggings.json
-  assets/thalrathis/models/item/iron_rapier.json
-  assets/thalrathis/models/item/iron_shield.json
-  assets/thalrathis/models/item/iron_shield_0.json
-  assets/thalrathis/models/item/iron_sickle.json
-  assets/thalrathis/models/item/iron_twin_blade.json
-  assets/thalrathis/models/item/iron_twinblade.json
   assets/thalrathis/models/item/iscarynn_heavy_axe.json
   assets/thalrathis/models/item/jadehalberd.json
-  assets/thalrathis/models/item/kamath_armor_helmet.json
-  assets/thalrathis/models/item/kamath_hand.json
   assets/thalrathis/models/item/katana.json
   assets/thalrathis/models/item/katana2.json
-  assets/thalrathis/models/item/klauen_necklace.json
-  assets/thalrathis/models/item/kopesh_sickle.json
   assets/thalrathis/models/item/legendary_mana_ring.json
   assets/thalrathis/models/item/legendarysword.json
   assets/thalrathis/models/item/light_rune.json
-  assets/thalrathis/models/item/light_smithing_template.json
   assets/thalrathis/models/item/light_upgrade_orb.json
   assets/thalrathis/models/item/lightning_armor_boots.json
   assets/thalrathis/models/item/lightning_armor_chestplate.json
@@ -559,12 +449,8 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/lightning_dragon_priest_chestplate.json
   assets/thalrathis/models/item/lightning_dragon_priest_helmet.json
   assets/thalrathis/models/item/lightning_dragon_priest_leggings.json
-  assets/thalrathis/models/item/linen_bundle.json
-  assets/thalrathis/models/item/linen_cloth.json
-  assets/thalrathis/models/item/linen_rope.json
   assets/thalrathis/models/item/lisianthus.json
   assets/thalrathis/models/item/long_katana.json
-  assets/thalrathis/models/item/long_sickle.json
   assets/thalrathis/models/item/longsword.json
   assets/thalrathis/models/item/luminus_rune.json
   assets/thalrathis/models/item/luminus_shard.json
@@ -572,67 +458,13 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/magiscythe.json
   assets/thalrathis/models/item/malakar_heavy_axe.json
   assets/thalrathis/models/item/masamune.json
-  assets/thalrathis/models/item/mead.json
   assets/thalrathis/models/item/might_rune.json
   assets/thalrathis/models/item/might_upgrade_orb.json
-  assets/thalrathis/models/item/mimic_eye.json
-  assets/thalrathis/models/item/mimic_shield.json
-  assets/thalrathis/models/item/mimic_shield_0.json
   assets/thalrathis/models/item/mjolnir.json
   assets/thalrathis/models/item/mjolnir_mace.json
-  assets/thalrathis/models/item/mm_great_hammer.json
-  assets/thalrathis/models/item/mm_hammer.json
-  assets/thalrathis/models/item/molten_blazing_boots.json
-  assets/thalrathis/models/item/molten_blazing_chestplate.json
-  assets/thalrathis/models/item/molten_blazing_fists.json
-  assets/thalrathis/models/item/molten_blazing_greathammer.json
-  assets/thalrathis/models/item/molten_blazing_hammer.json
-  assets/thalrathis/models/item/molten_blazing_helmet.json
-  assets/thalrathis/models/item/molten_blazing_lance.json
-  assets/thalrathis/models/item/molten_blazing_lance_ii.json
-  assets/thalrathis/models/item/molten_blazing_leggings.json
-  assets/thalrathis/models/item/molten_blazing_sword.json
-  assets/thalrathis/models/item/molten_bone.json
-  assets/thalrathis/models/item/molten_bone_block.json
-  assets/thalrathis/models/item/molten_bone_greatsword.json
-  assets/thalrathis/models/item/molten_bone_sword.json
-  assets/thalrathis/models/item/molten_cryolite_boots.json
-  assets/thalrathis/models/item/molten_cryolite_chestplate.json
-  assets/thalrathis/models/item/molten_cryolite_greatsword.json
-  assets/thalrathis/models/item/molten_cryolite_helmet.json
-  assets/thalrathis/models/item/molten_cryolite_lance.json
-  assets/thalrathis/models/item/molten_cryolite_leggings.json
-  assets/thalrathis/models/item/molten_cryolite_sickle.json
-  assets/thalrathis/models/item/molten_cryolite_sword.json
-  assets/thalrathis/models/item/molten_dark_steel_axe.json
-  assets/thalrathis/models/item/molten_dark_steel_axe_ii.json
-  assets/thalrathis/models/item/molten_dark_steel_boots.json
-  assets/thalrathis/models/item/molten_dark_steel_chestplate.json
-  assets/thalrathis/models/item/molten_dark_steel_dagger.json
-  assets/thalrathis/models/item/molten_dark_steel_greataxe.json
-  assets/thalrathis/models/item/molten_dark_steel_helmet.json
-  assets/thalrathis/models/item/molten_dark_steel_hoe.json
-  assets/thalrathis/models/item/molten_dark_steel_ingot.json
-  assets/thalrathis/models/item/molten_dark_steel_leggings.json
-  assets/thalrathis/models/item/molten_dark_steel_nugget.json
-  assets/thalrathis/models/item/molten_dark_steel_pickaxe.json
-  assets/thalrathis/models/item/molten_dark_steel_shovel.json
-  assets/thalrathis/models/item/molten_dark_steel_sword.json
   assets/thalrathis/models/item/molten_katana.json
-  assets/thalrathis/models/item/molten_knight_boots.json
-  assets/thalrathis/models/item/molten_knight_chestplate.json
-  assets/thalrathis/models/item/molten_knight_helmet.json
-  assets/thalrathis/models/item/molten_knight_leggings.json
-  assets/thalrathis/models/item/molten_ring.json
-  assets/thalrathis/models/item/molten_smithing_template.json
   assets/thalrathis/models/item/molten_sword.json
   assets/thalrathis/models/item/moonlight_greatsword.json
-  assets/thalrathis/models/item/mortar_and_pestle.json
-  assets/thalrathis/models/item/mortar_and_pestle_of_ammit_powder.json
-  assets/thalrathis/models/item/mortar_and_pestle_of_blaze_powder.json
-  assets/thalrathis/models/item/mortar_and_pestle_of_blood.json
-  assets/thalrathis/models/item/mortar_and_pestle_of_poison.json
-  assets/thalrathis/models/item/mortar_and_pestle_of_toxin.json
   assets/thalrathis/models/item/muramasa_katana.json
   assets/thalrathis/models/item/mysticalspellblade_rapier.json
   assets/thalrathis/models/item/mythicblade_claymore.json
@@ -645,14 +477,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/nature_spell_book.json
   assets/thalrathis/models/item/netheerite_sword.json
   assets/thalrathis/models/item/netherfang_sword.json
-  assets/thalrathis/models/item/netherite_claymore.json
-  assets/thalrathis/models/item/netherite_dagger.json
-  assets/thalrathis/models/item/netherite_greatsword.json
-  assets/thalrathis/models/item/netherite_scythe.json
-  assets/thalrathis/models/item/netherite_shield.json
-  assets/thalrathis/models/item/netherite_shield_0.json
-  assets/thalrathis/models/item/netherite_sword.json
-  assets/thalrathis/models/item/netherite_trident.json
   assets/thalrathis/models/item/nihility_rune.json
   assets/thalrathis/models/item/nihility_shard.json
   assets/thalrathis/models/item/nihility_upgrade_orb.json
@@ -662,13 +486,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/obscurum_rune.json
   assets/thalrathis/models/item/obscurum_shard.json
   assets/thalrathis/models/item/old_axe.json
-  assets/thalrathis/models/item/old_shield.json
-  assets/thalrathis/models/item/old_shield_0.json
-  assets/thalrathis/models/item/oni_slayer_boots.json
-  assets/thalrathis/models/item/oni_slayer_chestplate.json
-  assets/thalrathis/models/item/oni_slayer_helmet.json
-  assets/thalrathis/models/item/oni_slayer_leggings.json
-  assets/thalrathis/models/item/orange.json
   assets/thalrathis/models/item/pandora_lance.json
   assets/thalrathis/models/item/partisan.json
   assets/thalrathis/models/item/pharaohs_treasure.json
@@ -678,39 +495,21 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/powerfusehammer.json
   assets/thalrathis/models/item/powerfusesword.json
   assets/thalrathis/models/item/predator_pickaxe.json
-  assets/thalrathis/models/item/processed_antidote.json
   assets/thalrathis/models/item/pyroclast_claymore.json
   assets/thalrathis/models/item/pyromancer_scepter.json
   assets/thalrathis/models/item/rare_mana_ring.json
-  assets/thalrathis/models/item/raw_crimson.json
-  assets/thalrathis/models/item/raw_crimson_block.json
-  assets/thalrathis/models/item/raw_silver.json
-  assets/thalrathis/models/item/raw_silver_block.json
-  assets/thalrathis/models/item/raw_titanium.json
-  assets/thalrathis/models/item/raw_titanium_block.json
   assets/thalrathis/models/item/reaver_scythe.json
-  assets/thalrathis/models/item/reptile_meat.json
   assets/thalrathis/models/item/rhitta_axe.json
   assets/thalrathis/models/item/ribboncleaver.json
   assets/thalrathis/models/item/righteous_relic.json
-  assets/thalrathis/models/item/ring_of_life.json
-  assets/thalrathis/models/item/ring_of_the_eternal_resting.json
-  assets/thalrathis/models/item/ritual_bone.json
   assets/thalrathis/models/item/riversofblood_katana.json
-  assets/thalrathis/models/item/roasted_scorpion_tail.json
-  assets/thalrathis/models/item/rogue_boots.json
-  assets/thalrathis/models/item/rogue_chestplate.json
-  assets/thalrathis/models/item/rogue_helmet.json
   assets/thalrathis/models/item/rogue_leggings.json
-  assets/thalrathis/models/item/rotten_hammer.json
-  assets/thalrathis/models/item/rough_ebony.json
   assets/thalrathis/models/item/royalchakram.json
   assets/thalrathis/models/item/royalrapier.json
   assets/thalrathis/models/item/rusty_claymore.json
   assets/thalrathis/models/item/rusty_sword.json
   assets/thalrathis/models/item/sabre.json
   assets/thalrathis/models/item/sacred_tree_blade.json
-  assets/thalrathis/models/item/sacrificial_table.json
   assets/thalrathis/models/item/sanctaris_rune.json
   assets/thalrathis/models/item/sanctaris_shard.json
   assets/thalrathis/models/item/sandstorm_greatsword.json
@@ -720,107 +519,33 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/sanguis_shard.json
   assets/thalrathis/models/item/sanguren_katana.json
   assets/thalrathis/models/item/saw_cleaver_glaive.json
-  assets/thalrathis/models/item/saw_cleaver_sickle.json
   assets/thalrathis/models/item/saw_glaive.json
-  assets/thalrathis/models/item/saw_sickle.json
-  assets/thalrathis/models/item/scepter_of_compensation.json
   assets/thalrathis/models/item/scissorblade.json
-  assets/thalrathis/models/item/scorpion_claw.json
-  assets/thalrathis/models/item/scorpion_tail.json
-  assets/thalrathis/models/item/scroll_dark.json
-  assets/thalrathis/models/item/scroll_finality.json
-  assets/thalrathis/models/item/scroll_light.json
-  assets/thalrathis/models/item/scroll_might.json
-  assets/thalrathis/models/item/scroll_nihility.json
-  assets/thalrathis/models/item/scroll_water.json
-  assets/thalrathis/models/item/scroll_wind.json
   assets/thalrathis/models/item/sculk_glaive.json
   assets/thalrathis/models/item/sculk_scythe.json
   assets/thalrathis/models/item/sculk_sword.json
   assets/thalrathis/models/item/seleniar_scythe.json
   assets/thalrathis/models/item/sentinels_will.json
   assets/thalrathis/models/item/shariack_claymore.json
-  assets/thalrathis/models/item/shield_of_the_molten_ignis.json
-  assets/thalrathis/models/item/shield_of_the_molten_ignis_0.json
-  assets/thalrathis/models/item/silver_axe.json
-  assets/thalrathis/models/item/silver_block.json
-  assets/thalrathis/models/item/silver_boots.json
-  assets/thalrathis/models/item/silver_carrot.json
-  assets/thalrathis/models/item/silver_chestplate.json
-  assets/thalrathis/models/item/silver_dagger.json
-  assets/thalrathis/models/item/silver_deepslate_ore.json
   assets/thalrathis/models/item/silver_dragon_priest_staff.json
-  assets/thalrathis/models/item/silver_helmet.json
-  assets/thalrathis/models/item/silver_hoe.json
-  assets/thalrathis/models/item/silver_ingot.json
-  assets/thalrathis/models/item/silver_lance.json
-  assets/thalrathis/models/item/silver_leggings.json
-  assets/thalrathis/models/item/silver_nugget.json
-  assets/thalrathis/models/item/silver_orange.json
-  assets/thalrathis/models/item/silver_ore.json
-  assets/thalrathis/models/item/silver_pickaxe.json
-  assets/thalrathis/models/item/silver_rapier.json
-  assets/thalrathis/models/item/silver_shield.json
-  assets/thalrathis/models/item/silver_shield_0.json
-  assets/thalrathis/models/item/silver_shovel.json
-  assets/thalrathis/models/item/silver_spear.json
-  assets/thalrathis/models/item/silver_sword.json
-  assets/thalrathis/models/item/silverine_blade.json
-  assets/thalrathis/models/item/skull_chest.json
-  assets/thalrathis/models/item/skull_deserter_spawn_egg.json
-  assets/thalrathis/models/item/skull_head.json
-  assets/thalrathis/models/item/slimy_knife.json
-  assets/thalrathis/models/item/slimy_tongue.json
-  assets/thalrathis/models/item/solid_gold_greatsword.json
-  assets/thalrathis/models/item/solid_gold_long_sword.json
-  assets/thalrathis/models/item/solid_gold_saw_sword.json
-  assets/thalrathis/models/item/solid_gold_sickle.json
-  assets/thalrathis/models/item/solid_gold_sword.json
-  assets/thalrathis/models/item/solid_gold_twinblade.json
   assets/thalrathis/models/item/solpheer_claymore.json
-  assets/thalrathis/models/item/soul_bottle.json
   assets/thalrathis/models/item/soul_collector_scythe.json
   assets/thalrathis/models/item/soul_devourer_claymore.json
-  assets/thalrathis/models/item/soulclaws.json
   assets/thalrathis/models/item/souledge.json
   assets/thalrathis/models/item/soulharvester.json
   assets/thalrathis/models/item/soulrender.json
   assets/thalrathis/models/item/soulstealer.json
-  assets/thalrathis/models/item/spike_trap.json
   assets/thalrathis/models/item/stars_edge.json
   assets/thalrathis/models/item/steeel_axe.json
-  assets/thalrathis/models/item/steel_axe.json
-  assets/thalrathis/models/item/steel_axe_ii.json
-  assets/thalrathis/models/item/steel_block.json
-  assets/thalrathis/models/item/steel_boots.json
-  assets/thalrathis/models/item/steel_chestplate.json
-  assets/thalrathis/models/item/steel_dagger.json
-  assets/thalrathis/models/item/steel_greataxe.json
-  assets/thalrathis/models/item/steel_helmet.json
-  assets/thalrathis/models/item/steel_hoe.json
-  assets/thalrathis/models/item/steel_ingot.json
-  assets/thalrathis/models/item/steel_leggings.json
-  assets/thalrathis/models/item/steel_nugget.json
-  assets/thalrathis/models/item/steel_pickaxe.json
-  assets/thalrathis/models/item/steel_shield.json
-  assets/thalrathis/models/item/steel_shield_0.json
-  assets/thalrathis/models/item/steel_shoulder.json
-  assets/thalrathis/models/item/steel_shovel.json
-  assets/thalrathis/models/item/steel_sword.json
-  assets/thalrathis/models/item/steel_tomahawk_axe.json
-  assets/thalrathis/models/item/steelsword.json
   assets/thalrathis/models/item/stone_knife.json
   assets/thalrathis/models/item/stone_lance.json
   assets/thalrathis/models/item/stone_lance_copy.json
-  assets/thalrathis/models/item/stone_mace.json
   assets/thalrathis/models/item/stone_spear.json
   assets/thalrathis/models/item/stop_sign_mace.json
   assets/thalrathis/models/item/stormbringer_claymore.json
   assets/thalrathis/models/item/stormlash_katana.json
   assets/thalrathis/models/item/storms_edge_twin_blade.json
   assets/thalrathis/models/item/sunbreak.json
-  assets/thalrathis/models/item/sunleia_light.json
-  assets/thalrathis/models/item/sunleia_light_off.json
   assets/thalrathis/models/item/sunrise_sword.json
   assets/thalrathis/models/item/super_mana_ring.json
   assets/thalrathis/models/item/sword_rusty.json
@@ -834,39 +559,11 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/the_gravedigger_axe.json
   assets/thalrathis/models/item/the_gravedigger_greataxe.json
   assets/thalrathis/models/item/the_gravedigger_sword.json
-  assets/thalrathis/models/item/thirsty_necklace.json
   assets/thalrathis/models/item/thousanddemondaggers_katana.json
   assets/thalrathis/models/item/thunderbrand_heavy_axe.json
   assets/thalrathis/models/item/thunderbringer_coral_blade.json
   assets/thalrathis/models/item/thunderous_dragon_priest_staff.json
-  assets/thalrathis/models/item/titan_boots.json
-  assets/thalrathis/models/item/titan_chestplate.json
-  assets/thalrathis/models/item/titan_helmet.json
-  assets/thalrathis/models/item/titan_leggings.json
-  assets/thalrathis/models/item/titanium_axe.json
-  assets/thalrathis/models/item/titanium_block.json
-  assets/thalrathis/models/item/titanium_boots.json
-  assets/thalrathis/models/item/titanium_chestplate.json
-  assets/thalrathis/models/item/titanium_deepslate_ore.json
   assets/thalrathis/models/item/titanium_dragon_sword.json
-  assets/thalrathis/models/item/titanium_greatsword.json
-  assets/thalrathis/models/item/titanium_helmet.json
-  assets/thalrathis/models/item/titanium_hoe.json
-  assets/thalrathis/models/item/titanium_ingot.json
-  assets/thalrathis/models/item/titanium_leggings.json
-  assets/thalrathis/models/item/titanium_mace.json
-  assets/thalrathis/models/item/titanium_nugget.json
-  assets/thalrathis/models/item/titanium_ore.json
-  assets/thalrathis/models/item/titanium_pickaxe.json
-  assets/thalrathis/models/item/titanium_shield.json
-  assets/thalrathis/models/item/titanium_shield_0.json
-  assets/thalrathis/models/item/titanium_shovel.json
-  assets/thalrathis/models/item/titanium_sickle.json
-  assets/thalrathis/models/item/titanium_sword.json
-  assets/thalrathis/models/item/tohi_smithing_template.json
-  assets/thalrathis/models/item/tombwarden_chestplate.json
-  assets/thalrathis/models/item/tombwarden_helmet.json
-  assets/thalrathis/models/item/totem_of_sacrifice.json
   assets/thalrathis/models/item/toxic_longsword.json
   assets/thalrathis/models/item/trinity_lance.json
   assets/thalrathis/models/item/true_excalibur_claymore.json
@@ -876,10 +573,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/umbra_rune.json
   assets/thalrathis/models/item/umbra_shard.json
   assets/thalrathis/models/item/uncommon_mana_ring.json
-  assets/thalrathis/models/item/vagabond_boots.json
-  assets/thalrathis/models/item/vagabond_chestplate.json
-  assets/thalrathis/models/item/vagabond_helmet.json
-  assets/thalrathis/models/item/vagabond_leggings.json
   assets/thalrathis/models/item/vampiricneedle_rapier.json
   assets/thalrathis/models/item/veldris_sword.json
   assets/thalrathis/models/item/verdalis_rune.json
@@ -890,21 +583,15 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/models/item/vocaris_shard.json
   assets/thalrathis/models/item/voidshade_katana.json
   assets/thalrathis/models/item/voltaris_sword.json
-  assets/thalrathis/models/item/wakizashi.json
   assets/thalrathis/models/item/watcher_claymore.json
   assets/thalrathis/models/item/watching_twin_blade.json
   assets/thalrathis/models/item/water_rune.json
   assets/thalrathis/models/item/water_upgrade_orb.json
   assets/thalrathis/models/item/waxweaver_claymore.json
   assets/thalrathis/models/item/whisperwind_katana.json
-  assets/thalrathis/models/item/whole_cheese.json
   assets/thalrathis/models/item/wickpiercer_lance.json
   assets/thalrathis/models/item/wind_rune.json
   assets/thalrathis/models/item/wind_upgrade_orb.json
-  assets/thalrathis/models/item/wooden_battle_staff.json
-  assets/thalrathis/models/item/wooden_knife.json
-  assets/thalrathis/models/item/wooden_mace.json
-  assets/thalrathis/models/item/wooden_staff.json
   assets/thalrathis/models/item/xerax_katana.json
   assets/thalrathis/models/item/yomayo_spell_book.json
   assets/thalrathis/models/item/yoru.json
@@ -1111,192 +798,9 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   assets/thalrathis/sounds/generic/wind_cast.ogg
   assets/thalrathis/textures/
   assets/thalrathis/textures/block/
-  assets/thalrathis/textures/block/blackstone_fired.png
-  assets/thalrathis/textures/block/blackstone_fired.png.mcmeta
-  assets/thalrathis/textures/block/blackstone_top.png
-  assets/thalrathis/textures/block/blazing_blackstone_brick.png
-  assets/thalrathis/textures/block/blazing_blackstone_brick.png.mcmeta
-  assets/thalrathis/textures/block/blazing_block.png
-  assets/thalrathis/textures/block/blazing_casting_table_botton.png
-  assets/thalrathis/textures/block/blazing_casting_table_front.png
-  assets/thalrathis/textures/block/blazing_casting_table_side.png
-  assets/thalrathis/textures/block/blazing_casting_table_top.png
-  assets/thalrathis/textures/block/blazing_stone.png
-  assets/thalrathis/textures/block/blazing_stone.png.mcmeta
-  assets/thalrathis/textures/block/blessed_gold_block.png
-  assets/thalrathis/textures/block/blessed_gold_claws.png
-  assets/thalrathis/textures/block/bone_plank.png
-  assets/thalrathis/textures/block/bone_plank_door_botton.png
-  assets/thalrathis/textures/block/bone_plank_door_top.png
-  assets/thalrathis/textures/block/bone_plank_trapdoor.png
-  assets/thalrathis/textures/block/chainsaw.png
-  assets/thalrathis/textures/block/chalice.png
-  assets/thalrathis/textures/block/chalice_with_blood.png
-  assets/thalrathis/textures/block/chalice_with_divine_blood.png
-  assets/thalrathis/textures/block/chalice_with_impure_blood.png
   assets/thalrathis/textures/block/chibi_bishepp.png
   assets/thalrathis/textures/block/chibi_lemon.png
   assets/thalrathis/textures/block/chibi_mrkillers.png
-  assets/thalrathis/textures/block/cobblestone_bricks.png
-  assets/thalrathis/textures/block/cobblestone_bricks_alterne.png
-  assets/thalrathis/textures/block/cobblestone_bricks_mossy.png
-  assets/thalrathis/textures/block/cobblestone_bricks_mossy_alternative.png
-  assets/thalrathis/textures/block/crimson_brick.png
-  assets/thalrathis/textures/block/crimson_brick_altern.png
-  assets/thalrathis/textures/block/cursed_molten_blazing_fists.png
-  assets/thalrathis/textures/block/desolate_dirt.png
-  assets/thalrathis/textures/block/elden_oak_door_botton.png
-  assets/thalrathis/textures/block/elden_oak_door_top.png
-  assets/thalrathis/textures/block/elden_oak_planks.png
-  assets/thalrathis/textures/block/elden_oak_side.png
-  assets/thalrathis/textures/block/elden_oak_top.png
-  assets/thalrathis/textures/block/elden_oak_trapdoor.png
-  assets/thalrathis/textures/block/fleshy_cloth_block.png
-  assets/thalrathis/textures/block/head_skull.png
-  assets/thalrathis/textures/block/igneous_block.png
-  assets/thalrathis/textures/block/igneous_essence_ore.png
-  assets/thalrathis/textures/block/kamath_hand.png
-  assets/thalrathis/textures/block/linenrope.png
-  assets/thalrathis/textures/block/lisianthus.png
-  assets/thalrathis/textures/block/mimic_shield.png
-  assets/thalrathis/textures/block/molotov.png
-  assets/thalrathis/textures/block/molten_blazing_fists.png
-  assets/thalrathis/textures/block/molten_bone_block_side.png
-  assets/thalrathis/textures/block/molten_bone_block_top.png
-  assets/thalrathis/textures/block/palm_log.png
-  assets/thalrathis/textures/block/palm_planks.png
-  assets/thalrathis/textures/block/palm_top_log.png
-  assets/thalrathis/textures/block/pie_of_ritual_bone.png
-  assets/thalrathis/textures/block/pie_of_ritual_bone_with_blood.png
-  assets/thalrathis/textures/block/pyroclastic_scepter.png
-  assets/thalrathis/textures/block/raw_crimson_block.png
-  assets/thalrathis/textures/block/raw_silver_block.png
-  assets/thalrathis/textures/block/raw_titanium_block.png
-  assets/thalrathis/textures/block/rough_ebony_side.png
-  assets/thalrathis/textures/block/rough_ebony_top.png
-  assets/thalrathis/textures/block/sacrificial_table.png
-  assets/thalrathis/textures/block/silver_block.png
-  assets/thalrathis/textures/block/silver_deepslate_ore.png
-  assets/thalrathis/textures/block/silver_ore.png
-  assets/thalrathis/textures/block/skull_chest.png
-  assets/thalrathis/textures/block/solid_cactus_side.png
-  assets/thalrathis/textures/block/solid_cactus_top.png
-  assets/thalrathis/textures/block/soul_bottle.png
-  assets/thalrathis/textures/block/spiketrap.png
-  assets/thalrathis/textures/block/steel_block.png
-  assets/thalrathis/textures/block/sunleia_light.png
-  assets/thalrathis/textures/block/sunleia_light_off.png
-  assets/thalrathis/textures/block/titanium_block.png
-  assets/thalrathis/textures/block/titanium_deepslate_ore.png
-  assets/thalrathis/textures/block/titanium_ore.png
-  assets/thalrathis/textures/block/tomahawk.png
-  assets/thalrathis/textures/entity/
-  assets/thalrathis/textures/entity/allium_fairy.png
-  assets/thalrathis/textures/entity/ammit.png
-  assets/thalrathis/textures/entity/bandages.png
-  assets/thalrathis/textures/entity/blacksmith.png
-  assets/thalrathis/textures/entity/blastgeist.png
-  assets/thalrathis/textures/entity/blazing_blaze.png
-  assets/thalrathis/textures/entity/blazing_cursed_fire.png
-  assets/thalrathis/textures/entity/blessed_gold.png
-  assets/thalrathis/textures/entity/blessed_gold_claws.png
-  assets/thalrathis/textures/entity/blood_cult.png
-  assets/thalrathis/textures/entity/bloody_arrow.png
-  assets/thalrathis/textures/entity/bloody_cultist.png
-  assets/thalrathis/textures/entity/bloody_cultist_defender.png
-  assets/thalrathis/textures/entity/bloodycult.png
-  assets/thalrathis/textures/entity/bloodymancer.png
-  assets/thalrathis/textures/entity/bloodymancer_entity.png
-  assets/thalrathis/textures/entity/bloodymancer_magic.png
-  assets/thalrathis/textures/entity/blue_orchid_fairy.png
-  assets/thalrathis/textures/entity/chained.png
-  assets/thalrathis/textures/entity/chained_glow.png
-  assets/thalrathis/textures/entity/chuck.png
-  assets/thalrathis/textures/entity/copper.png
-  assets/thalrathis/textures/entity/crimson.png
-  assets/thalrathis/textures/entity/cryolite.png
-  assets/thalrathis/textures/entity/cursesoulprojectile.png
-  assets/thalrathis/textures/entity/darkmetal.png
-  assets/thalrathis/textures/entity/darksteelmetal.png
-  assets/thalrathis/textures/entity/deadcrown_layer_1.png
-  assets/thalrathis/textures/entity/deserter_layer_1.png
-  assets/thalrathis/textures/entity/deserter_skull.png
-  assets/thalrathis/textures/entity/disappointment.png
-  assets/thalrathis/textures/entity/ebony_crimson.png
-  assets/thalrathis/textures/entity/exiled.png
-  assets/thalrathis/textures/entity/failure.png
-  assets/thalrathis/textures/entity/fairy_wings.png
-  assets/thalrathis/textures/entity/fairyproyectile.png
-  assets/thalrathis/textures/entity/flower_fairy.png
-  assets/thalrathis/textures/entity/forbidden_layer_1.png
-  assets/thalrathis/textures/entity/forgottenknight_alternative_layer_1.png
-  assets/thalrathis/textures/entity/forgottenknight_layer_1.png
-  assets/thalrathis/textures/entity/ghoul.png
-  assets/thalrathis/textures/entity/gigant_scorpion.png
-  assets/thalrathis/textures/entity/goatskull.png
-  assets/thalrathis/textures/entity/gravewatcher.png
-  assets/thalrathis/textures/entity/gravewatcher_glowing.png
-  assets/thalrathis/textures/entity/headhunter_alternative.png
-  assets/thalrathis/textures/entity/heart_warden.png
-  assets/thalrathis/textures/entity/heart_warden2.png
-  assets/thalrathis/textures/entity/heat_warden_glow.png
-  assets/thalrathis/textures/entity/heavy.png
-  assets/thalrathis/textures/entity/hoodofshame.png
-  assets/thalrathis/textures/entity/horuso.png
-  assets/thalrathis/textures/entity/human_soleia.png
-  assets/thalrathis/textures/entity/infernus_alternative.png
-  assets/thalrathis/textures/entity/iron.png
-  assets/thalrathis/textures/entity/karnath.png
-  assets/thalrathis/textures/entity/karnath_eyes.png
-  assets/thalrathis/textures/entity/karnath_helmet.png
-  assets/thalrathis/textures/entity/ladyblaze.png
-  assets/thalrathis/textures/entity/lich.png
-  assets/thalrathis/textures/entity/lich_glow.png
-  assets/thalrathis/textures/entity/lilith.png
-  assets/thalrathis/textures/entity/magic_arrow.png
-  assets/thalrathis/textures/entity/mercenary_layer_1.png
-  assets/thalrathis/textures/entity/mimic.png
-  assets/thalrathis/textures/entity/mimic_eyes.png
-  assets/thalrathis/textures/entity/molotov.png
-  assets/thalrathis/textures/entity/molten_cryolite.png
-  assets/thalrathis/textures/entity/moltensteel.png
-  assets/thalrathis/textures/entity/mummy.png
-  assets/thalrathis/textures/entity/onislayer.png
-  assets/thalrathis/textures/entity/paladin_layer_1.png
-  assets/thalrathis/textures/entity/palehands.png
-  assets/thalrathis/textures/entity/palehands_minion.png
-  assets/thalrathis/textures/entity/palehands_minion_eye.png
-  assets/thalrathis/textures/entity/platinium_layer_1.png
-  assets/thalrathis/textures/entity/platinium_layer_2.png
-  assets/thalrathis/textures/entity/prohibited_rags.png
-  assets/thalrathis/textures/entity/pyroknight.png
-  assets/thalrathis/textures/entity/pyromancer.png
-  assets/thalrathis/textures/entity/reaver_slash.png
-  assets/thalrathis/textures/entity/rogue_layer_1.png
-  assets/thalrathis/textures/entity/rose_fairy.png
-  assets/thalrathis/textures/entity/sacrificial_table.png
-  assets/thalrathis/textures/entity/sandstone_golem.png
-  assets/thalrathis/textures/entity/scorpion.png
-  assets/thalrathis/textures/entity/sharp_arrow.png
-  assets/thalrathis/textures/entity/silver.png
-  assets/thalrathis/textures/entity/skull.png
-  assets/thalrathis/textures/entity/skull_mimic.png
-  assets/thalrathis/textures/entity/skull_warrior.png
-  assets/thalrathis/textures/entity/soleia.png
-  assets/thalrathis/textures/entity/soleia_glow.png
-  assets/thalrathis/textures/entity/steel.png
-  assets/thalrathis/textures/entity/steel_shoulder.png
-  assets/thalrathis/textures/entity/the_monarch.png
-  assets/thalrathis/textures/entity/theaberrator.png
-  assets/thalrathis/textures/entity/theaberratoreyes.png
-  assets/thalrathis/textures/entity/titanium.png
-  assets/thalrathis/textures/entity/titanium_alternative.png
-  assets/thalrathis/textures/entity/tohigold.png
-  assets/thalrathis/textures/entity/tomahawk.png
-  assets/thalrathis/textures/entity/torture.png
-  assets/thalrathis/textures/entity/vagabond_layer_1.png
-  assets/thalrathis/textures/entity/weak_aberration.png
-  assets/thalrathis/textures/entity/wind_shield_layer.png
   assets/thalrathis/textures/gui/
   assets/thalrathis/textures/gui/spell_icons/
   assets/thalrathis/textures/gui/spell_icons/airblast.png
@@ -2173,77 +1677,17 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   data/curios/
   data/curios/tags/
   data/curios/tags/items/
-  data/curios/tags/items/back.json
-  data/curios/tags/items/belt.json
-  data/curios/tags/items/hands.json
-  data/curios/tags/items/necklace.json
   data/curios/tags/items/ring.json
   data/curios/tags/items/spellbook.json
-  data/loot_tables/
-  data/loot_tables/grant_book_on_first_join.json
   data/minecraft/
   data/minecraft/tags/
-  data/minecraft/tags/blocks/
-  data/minecraft/tags/blocks/dirt.json
-  data/minecraft/tags/blocks/fences.json
-  data/minecraft/tags/blocks/logs.json
-  data/minecraft/tags/blocks/mineable/
-  data/minecraft/tags/blocks/mineable/axe.json
-  data/minecraft/tags/blocks/mineable/pickaxe.json
-  data/minecraft/tags/blocks/mineable/shovel.json
-  data/minecraft/tags/blocks/needs_diamond_tool.json
-  data/minecraft/tags/blocks/needs_iron_tool.json
-  data/minecraft/tags/blocks/needs_stone_tool.json
-  data/minecraft/tags/blocks/slabs.json
-  data/minecraft/tags/blocks/stairs.json
-  data/minecraft/tags/blocks/walls.json
   data/minecraft/tags/damage_type/
   data/minecraft/tags/damage_type/bypasses_armor.json
   data/minecraft/tags/damage_type/bypasses_shield.json
   data/minecraft/tags/damage_type/bypasses_wolf_armor.json
   data/minecraft/tags/damage_type/no_impact.json
   data/minecraft/tags/damage_type/no_knockback.json
-  data/minecraft/tags/items/
-  data/minecraft/tags/items/axes.json
-  data/minecraft/tags/items/hoes.json
-  data/minecraft/tags/items/pickaxes.json
-  data/minecraft/tags/items/planks.json
-  data/minecraft/tags/items/shovels.json
-  data/minecraft/tags/items/swords.json
-  data/minecraft/tags/worldgen/
-  data/minecraft/tags/worldgen/biome/
-  data/minecraft/tags/worldgen/biome/is_overworld.json
   data/thalrathis/
-  data/thalrathis/advancements/
-  data/thalrathis/advancements/a_infernal_fortress.json
-  data/thalrathis/advancements/blood_is_fuel_hell_is_full.json
-  data/thalrathis/advancements/born_of_blood.json
-  data/thalrathis/advancements/catacumbs_lugubrious.json
-  data/thalrathis/advancements/dark_purposes.json
-  data/thalrathis/advancements/dungeons_and_combat.json
-  data/thalrathis/advancements/forgotten_sands.json
-  data/thalrathis/advancements/hiddeninthe_cult.json
-  data/thalrathis/advancements/i_dont_think_you_need_it.json
-  data/thalrathis/advancements/is_this_my_size.json
-  data/thalrathis/advancements/let_the_ceremony_begin.json
-  data/thalrathis/advancements/no_soy_dendy.json
-  data/thalrathis/advancements/now_you_can_rest.json
-  data/thalrathis/advancements/old_friends.json
-  data/thalrathis/advancements/origin.json
-  data/thalrathis/advancements/the_bloody_cult.json
-  data/thalrathis/advancements/the_bloodymancer.json
-  data/thalrathis/advancements/the_bounty_hunter.json
-  data/thalrathis/advancements/the_cursed_soul.json
-  data/thalrathis/advancements/the_exiled.json
-  data/thalrathis/advancements/the_forgotten_knight.json
-  data/thalrathis/advancements/the_man_of_steel.json
-  data/thalrathis/advancements/the_new_god_of_the_sun.json
-  data/thalrathis/advancements/the_new_gravedigger.json
-  data/thalrathis/advancements/the_oni_slayer.json
-  data/thalrathis/advancements/the_rogue.json
-  data/thalrathis/advancements/the_titan.json
-  data/thalrathis/advancements/the_vagabond.json
-  data/thalrathis/advancements/witch.json
   data/thalrathis/damage_type/
   data/thalrathis/damage_type/asphyxiation.json
   data/thalrathis/damage_type/dark_magic.json
@@ -2263,108 +1707,7 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   data/thalrathis/irons_jewerly/material/rune_water.json
   data/thalrathis/irons_jewerly/material/rune_wind.json
   data/thalrathis/loot_tables/
-  data/thalrathis/loot_tables/blocks/
-  data/thalrathis/loot_tables/blocks/blazing_block.json
-  data/thalrathis/loot_tables/blocks/blessed_gold_block.json
-  data/thalrathis/loot_tables/blocks/bone_planks.json
-  data/thalrathis/loot_tables/blocks/bone_planks_button.json
-  data/thalrathis/loot_tables/blocks/bone_planks_door.json
-  data/thalrathis/loot_tables/blocks/bone_planks_fence.json
-  data/thalrathis/loot_tables/blocks/bone_planks_fence_gate.json
-  data/thalrathis/loot_tables/blocks/bone_planks_pressure_plate.json
-  data/thalrathis/loot_tables/blocks/bone_planks_slab.json
-  data/thalrathis/loot_tables/blocks/bone_planks_stairs.json
-  data/thalrathis/loot_tables/blocks/bone_planks_trap_door.json
-  data/thalrathis/loot_tables/blocks/chalice.json
-  data/thalrathis/loot_tables/blocks/chalice_blood_indestructible.json
-  data/thalrathis/loot_tables/blocks/chalice_divine_indestructible.json
-  data/thalrathis/loot_tables/blocks/chalice_impure_indestructible.json
-  data/thalrathis/loot_tables/blocks/chalice_indestructible.json
-  data/thalrathis/loot_tables/blocks/chalice_with_blood.json
-  data/thalrathis/loot_tables/blocks/chalice_with_divine_blood.json
-  data/thalrathis/loot_tables/blocks/chalice_with_impure_blood.json
-  data/thalrathis/loot_tables/blocks/cobblestone_brick.json
-  data/thalrathis/loot_tables/blocks/cobblestone_brick_mossy.json
-  data/thalrathis/loot_tables/blocks/cobblestone_brick_slab.json
-  data/thalrathis/loot_tables/blocks/cobblestone_brick_stairs.json
-  data/thalrathis/loot_tables/blocks/cobblestone_brick_wall.json
-  data/thalrathis/loot_tables/blocks/crimson_brick.json
-  data/thalrathis/loot_tables/blocks/crimson_brick_slab.json
-  data/thalrathis/loot_tables/blocks/crimson_brick_stairs.json
-  data/thalrathis/loot_tables/blocks/crimson_brick_wall.json
-  data/thalrathis/loot_tables/blocks/crimson_tiles.json
-  data/thalrathis/loot_tables/blocks/crimson_tiles_slab.json
-  data/thalrathis/loot_tables/blocks/crimson_tiles_stairs.json
-  data/thalrathis/loot_tables/blocks/crimson_tiles_wall.json
-  data/thalrathis/loot_tables/blocks/desolate_dirt.json
-  data/thalrathis/loot_tables/blocks/elden_oak_log.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_button.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_door.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_fence.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_fence_gate.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_pressure_plate.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_slab.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_stairs.json
-  data/thalrathis/loot_tables/blocks/elden_oak_planks_trap_door.json
-  data/thalrathis/loot_tables/blocks/elden_oak_wood.json
-  data/thalrathis/loot_tables/blocks/field_of_fallen.json
-  data/thalrathis/loot_tables/blocks/fleshy_cloth_block.json
-  data/thalrathis/loot_tables/blocks/igneous_blackstone_brick.json
-  data/thalrathis/loot_tables/blocks/igneous_blackstone_brick_slab.json
-  data/thalrathis/loot_tables/blocks/igneous_blackstone_brick_stairs.json
-  data/thalrathis/loot_tables/blocks/igneous_blackstone_brick_wall.json
-  data/thalrathis/loot_tables/blocks/igneous_block.json
-  data/thalrathis/loot_tables/blocks/igneous_ore.json
-  data/thalrathis/loot_tables/blocks/kamath_hand.json
-  data/thalrathis/loot_tables/blocks/linen_rope.json
-  data/thalrathis/loot_tables/blocks/lisianthus.json
-  data/thalrathis/loot_tables/blocks/molten_bone_block.json
-  data/thalrathis/loot_tables/blocks/raw_crimson_block.json
-  data/thalrathis/loot_tables/blocks/raw_silver_block.json
-  data/thalrathis/loot_tables/blocks/raw_titanium_block.json
-  data/thalrathis/loot_tables/blocks/rough_ebony.json
-  data/thalrathis/loot_tables/blocks/sacrificial_table.json
-  data/thalrathis/loot_tables/blocks/silver_block.json
-  data/thalrathis/loot_tables/blocks/silver_deepslate_ore.json
-  data/thalrathis/loot_tables/blocks/silver_ore.json
-  data/thalrathis/loot_tables/blocks/skull_chest.json
-  data/thalrathis/loot_tables/blocks/skull_head.json
-  data/thalrathis/loot_tables/blocks/soleia.json
-  data/thalrathis/loot_tables/blocks/soul_bottle.json
-  data/thalrathis/loot_tables/blocks/spike_trap.json
-  data/thalrathis/loot_tables/blocks/steel_block.json
-  data/thalrathis/loot_tables/blocks/sunleia_light.json
-  data/thalrathis/loot_tables/blocks/sunleia_light_off.json
-  data/thalrathis/loot_tables/blocks/titanium_block.json
-  data/thalrathis/loot_tables/blocks/titanium_deepslate_ore.json
-  data/thalrathis/loot_tables/blocks/titanium_ore.json
-  data/thalrathis/loot_tables/chests/
-  data/thalrathis/loot_tables/chests/blacksmithy.json
-  data/thalrathis/loot_tables/chests/blazing_fortress_loot.json
-  data/thalrathis/loot_tables/chests/catacumbs.json
-  data/thalrathis/loot_tables/chests/forgotten_sand.json
-  data/thalrathis/loot_tables/chests/tavern_loot.json
-  data/thalrathis/loot_tables/chests/weak_cult.json
-  data/thalrathis/loot_tables/entities/
-  data/thalrathis/loot_tables/entities/ammit.json
-  data/thalrathis/loot_tables/entities/chained.json
-  data/thalrathis/loot_tables/entities/flower_fairy.json
-  data/thalrathis/loot_tables/entities/gigant_scorpion.json
-  data/thalrathis/loot_tables/entities/horuso.json
-  data/thalrathis/loot_tables/entities/infernus.json
-  data/thalrathis/loot_tables/entities/kamath.json
-  data/thalrathis/loot_tables/entities/lady_blaze.json
-  data/thalrathis/loot_tables/entities/mummy.json
-  data/thalrathis/loot_tables/entities/pyro_knight.json
-  data/thalrathis/loot_tables/entities/sandstone_golem.json
-  data/thalrathis/loot_tables/entities/skull.json
-  data/thalrathis/loot_tables/entities/skull_deserter.json
-  data/thalrathis/loot_tables/entities/skull_mimic.json
-  data/thalrathis/loot_tables/entities/sunleia.json
-  data/thalrathis/loot_tables/entities/the_aberrator.json
-  data/thalrathis/loot_tables/entities/the_monarch.json
-  data/thalrathis/loot_tables/entities/torture.json
+  data/thalrathis/loot_tables/grant_book_on_first_join.json
   data/thalrathis/patchouli_books/
   data/thalrathis/patchouli_books/thalrathis_book/
   data/thalrathis/patchouli_books/thalrathis_book/book.json
@@ -2380,22 +1723,6 @@ Writing Output: D:\testingcode\Thalrathis\build\reobfJar\output.jar
   data/thalrathis/tags/item/nihility_focus.json
   data/thalrathis/tags/item/water_focus.json
   data/thalrathis/tags/item/wind_focus.json
-  data/thalrathis/weapon_attributes/
-  data/thalrathis/weapon_attributes/blazzing_sword.json
-  data/thalrathis/weapon_attributes/crimson_sword.json
-  data/thalrathis/weapon_attributes/cryolite_sword.json
-  data/thalrathis/weapon_attributes/delta_sword.json
-  data/thalrathis/weapon_attributes/diamond_sword.json
-  data/thalrathis/weapon_attributes/molten_blazing_fists.json
-  data/thalrathis/weapon_attributes/molten_blazing_greathammer.json
-  data/thalrathis/weapon_attributes/molten_blazing_sword.json
-  data/thalrathis/weapon_attributes/molten_bone_greatsword.json
-  data/thalrathis/weapon_attributes/molten_cryolite_sword.json
-  data/thalrathis/weapon_attributes/netherite_sword.json
-  data/thalrathis/weapon_attributes/oath_sword.json
-  data/thalrathis/weapon_attributes/sandstorm_sword.json
-  data/thalrathis/weapon_attributes/sword_rusty.json
-  data/thalrathis/weapon_attributes/titanium_dragon_sword.json
   pack.mcmeta
   ru/
   ru/lemoncraft/
