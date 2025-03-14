@@ -288,7 +288,7 @@ public class ItemRegistry {
 
     // Magic staffs (!!!TESTING!!!):::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> DRAGON_PRIEST_STAFF = ITEMS.register("dragon_priest_staff",
-            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 6, -3,
+            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 50, -3,
                     Map.of(AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", .10,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
@@ -303,7 +303,7 @@ public class ItemRegistry {
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> FIRE_DRAGON_PRIEST_STAFF = ITEMS.register("crimson_dragon_priest_staff",
-            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 7, -3,
+            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
@@ -312,7 +312,7 @@ public class ItemRegistry {
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> ICE_DRAGON_PRIEST_STAFF = ITEMS.register("silver_dragon_priest_staff",
-            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 7, -3,
+            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
@@ -321,7 +321,7 @@ public class ItemRegistry {
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> LIGHTNING_DRAGON_PRIEST_STAFF = ITEMS.register("thunderous_dragon_priest_staff",
-            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 7, -3,
+            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
@@ -330,7 +330,7 @@ public class ItemRegistry {
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> AIR_STAFF = ITEMS.register("air_staff",
-            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 7, -3,
+            () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(TAttributeRegistry.WIND_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
@@ -420,7 +420,7 @@ public class ItemRegistry {
                     (new Item.Properties()).rarity(Rarity.RARE)));
 
     public static final RegistryObject<Item> CYBERNETIC_PLACEHOLDER2 = ITEMS.register("cybernetic_dagger", () ->
-            new MagicSwordItem(Tiers.NETHERITE, 20, -0.9f, SpellDataRegistryHolder.of(),
+            new MagicSwordItem(Tiers.NETHERITE, 60, -0.9f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
@@ -487,13 +487,13 @@ public class ItemRegistry {
             Map.of(
             AttributeRegistry.COOLDOWN_REDUCTION.get(),
             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.BLOOD_SPELL_POWER.get(),
             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
-                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
             AttributeRegistry.MAX_MANA.get(),
             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d5"),"Weapon Modifier",
-                    2.5, AttributeModifier.Operation.MULTIPLY_BASE)
+                    2.0, AttributeModifier.Operation.MULTIPLY_BASE)
             ),
             (new Item.Properties()).rarity(Rarity.EPIC)));
 
@@ -502,9 +502,9 @@ public class ItemRegistry {
                     new SpellDataRegistryHolder(SpellRegistry.RAISE_DEAD_SPELL, 6),
                     new SpellDataRegistryHolder(SpellRegistry.BLOOD_STEP_SPELL, 5)),
                     Map.of(
-                            AttributeRegistry.COOLDOWN_REDUCTION.get(),
+                            AttributeRegistry.CAST_TIME_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    3.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -519,9 +519,9 @@ public class ItemRegistry {
                     new SpellDataRegistryHolder(SpellRegistry.DEVOUR_SPELL, 10),
                     new SpellDataRegistryHolder(SpellRegistry.WITHER_SKULL_SPELL, 10)),
                     Map.of(
-                            AttributeRegistry.COOLDOWN_REDUCTION.get(),
+                            AttributeRegistry.CAST_TIME_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    3.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     3.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -536,9 +536,9 @@ public class ItemRegistry {
                     new SpellDataRegistryHolder(SpellRegistry.HEARTSTOP_SPELL, 10),
                     new SpellDataRegistryHolder(SpellRegistry.RAY_OF_SIPHONING_SPELL, 10)),
                     Map.of(
-                            AttributeRegistry.COOLDOWN_REDUCTION.get(),
+                            AttributeRegistry.CAST_TIME_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -553,7 +553,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.8, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.8, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -568,7 +568,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -583,7 +583,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -598,7 +598,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -613,7 +613,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -628,7 +628,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -643,7 +643,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.8, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.8, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -658,7 +658,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.4, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.4, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -673,7 +673,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -684,11 +684,11 @@ public class ItemRegistry {
                     (new Item.Properties()).rarity(Rarity.RARE)));
 
     public static final RegistryObject<Item> BLOOD_PLACEHOLDER10 = ITEMS.register("vampiricneedle_rapier", () ->
-            new MagicSwordItem(ThalrathisTier.BLOOD, 50, -1.7f, SpellDataRegistryHolder.of(),
+            new MagicSwordItem(ThalrathisTier.BLOOD, 70, -1.7f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    0.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.BLOOD_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d4"), "Weapon Modifier",
                                     0.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -705,7 +705,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -722,7 +722,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -739,7 +739,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -756,7 +756,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -771,7 +771,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -786,7 +786,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.3, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     1.3, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -801,7 +801,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -816,7 +816,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    0.8, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     0.8, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -831,7 +831,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -846,7 +846,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -861,7 +861,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -876,7 +876,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ENDER_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d65d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -894,7 +894,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -911,7 +911,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -928,7 +928,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -945,7 +945,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -960,7 +960,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -975,7 +975,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -990,7 +990,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1005,7 +1005,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1020,7 +1020,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.FIRE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d66d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1038,7 +1038,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.2, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.2, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1055,7 +1055,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1072,7 +1072,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1083,13 +1083,13 @@ public class ItemRegistry {
                     (new Item.Properties()).rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> EXCALIT_CORAL_BLADE = ITEMS.register("excalit_coral_blade", () ->
-            new MagicSwordItem(ThalrathisTier.ICE, 20, -0.9f, SpellDataRegistryHolder.of(
+            new MagicSwordItem(ThalrathisTier.ICE, 60, -0.9f, SpellDataRegistryHolder.of(
                     new SpellDataRegistryHolder(SpellRegistry.FROST_STEP_SPELL, 10),
                     new SpellDataRegistryHolder(SpellRegistry.ICICLE_SPELL, 10)),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    0.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     0.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1104,7 +1104,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1119,7 +1119,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1134,7 +1134,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1149,7 +1149,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.8, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.8, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1165,7 +1165,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1180,7 +1180,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1195,7 +1195,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1212,7 +1212,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1227,7 +1227,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.3, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.3, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1242,7 +1242,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.8, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.8, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1257,7 +1257,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1272,7 +1272,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1287,7 +1287,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.7, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.7, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1302,10 +1302,10 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
-                                    1.00, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.MAX_MANA.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d5"),"Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE)
@@ -1317,7 +1317,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.3, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.3, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1332,7 +1332,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.3, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.NATURE_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.3, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1347,7 +1347,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1362,7 +1362,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1377,7 +1377,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1394,7 +1394,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1409,7 +1409,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1424,7 +1424,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1439,7 +1439,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1454,7 +1454,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.1, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.HOLY_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.1, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1470,7 +1470,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.EVOCATION_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1488,7 +1488,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.3, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.EVOCATION_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.3, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1506,7 +1506,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.EVOCATION_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1524,7 +1524,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    3.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.EVOCATION_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     3.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1542,7 +1542,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.3, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.EVOCATION_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.3, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1556,11 +1556,11 @@ public class ItemRegistry {
                     (new Item.Properties()).rarity(Rarity.EPIC)));
     // Eldritch weapons::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     public static final RegistryObject<Item> ELDRITCH_PLACEHOLDER1 = ITEMS.register("nytheris_dagger", () ->
-            new MagicSwordItem(ThalrathisTier.ELDRITCH, 20, -1.6f, SpellDataRegistryHolder.of(),
+            new MagicSwordItem(ThalrathisTier.ELDRITCH, 60, -1.6f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1575,7 +1575,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1590,7 +1590,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1605,7 +1605,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1620,7 +1620,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1635,7 +1635,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    3.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     3.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1650,7 +1650,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1665,7 +1665,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1680,7 +1680,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.1, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.1, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1695,7 +1695,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.2, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.7, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1710,7 +1710,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.7, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1725,7 +1725,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1736,11 +1736,11 @@ public class ItemRegistry {
                     (new Item.Properties()).rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> LIGHTNING_PLACEHOLDER6 = ITEMS.register("stormbringer_claymore", () ->
-            new MagicSwordItem(ThalrathisTier.SPARK, 20, -0.9f, SpellDataRegistryHolder.of(),
+            new MagicSwordItem(ThalrathisTier.SPARK, 60, -0.9f, SpellDataRegistryHolder.of(),
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1755,7 +1755,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1770,7 +1770,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     2.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1785,7 +1785,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d22d4"), "Weapon Modifier",
                                     8.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1803,7 +1803,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    3.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d22d4"), "Weapon Modifier",
                                     6.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1821,7 +1821,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.5, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d22d4"), "Weapon Modifier",
                                     7.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1839,7 +1839,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d22d4"), "Weapon Modifier",
                                     5.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1857,7 +1857,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    3.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d22d4"), "Weapon Modifier",
                                     7.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1875,7 +1875,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d22d4"), "Weapon Modifier",
                                     5.5, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1893,7 +1893,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    2.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d22d4"), "Weapon Modifier",
                                     6.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1912,7 +1912,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1927,7 +1927,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1942,7 +1942,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1957,7 +1957,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.2, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1972,7 +1972,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.0, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -1987,7 +1987,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.2, AttributeModifier.Operation.MULTIPLY_BASE),
@@ -2002,7 +2002,7 @@ public class ItemRegistry {
                     Map.of(
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d64d3"), "Weapon Modifier",
-                                    1.0, AttributeModifier.Operation.MULTIPLY_BASE),
+                                    0.1, AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.SPELL_POWER.get(),
                             new AttributeModifier(UUID.fromString("212b5a66-2b43-4c18-ab05-6de0cc4d67d4"), "Weapon Modifier",
                                     1.2, AttributeModifier.Operation.MULTIPLY_BASE),
