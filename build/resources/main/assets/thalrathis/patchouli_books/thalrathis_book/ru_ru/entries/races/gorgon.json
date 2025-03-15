@@ -1,15 +1,15 @@
 {
-  "name": "Gorgons",
+  "name": "Горгоны",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Gorgons are beings with the power to petrify their enemies with a gaze. They thrive in darkness and can turn other creatures into stone. Their petrification powers make them deadly, but their weakness is sunlight, which harms them over time."
+      "text": "Горгоны — существа с силой окаменения своих врагов взглядом. Они процветают в темноте и могут превращать других существ в камень. Их силы окаменения делают их смертельно опасными, но их слабость — солнечный свет, который причиняет им вред со временем."
     },
     {
       "type": "patchouli:text",
-      "text": "Gorgons are dangerous opponents, but their vulnerabilities to light must be exploited."
+      "text": "Горгоны — опасные противники, но их уязвимость к свету должна быть использована."
     }
   ]
 }

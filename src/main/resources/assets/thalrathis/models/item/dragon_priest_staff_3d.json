@@ -1,9 +1,7 @@
 {
-	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
-		"0": "thalrathis:item/dragon_priest_staff",
-		"particle": "thalrathis:item/dragon_priest_staff"
+		"0": "thalrathis:item/staff/dragon_priest_staff",
+		"particle": "thalrathis:item/staff/dragon_priest_staff"
 	},
 	"elements": [
 		{
@@ -136,6 +134,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [-0.5, -1.25, 1.25]

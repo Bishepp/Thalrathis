@@ -1,15 +1,15 @@
 {
-  "name": "Banshees",
+  "name": "Банши",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Banshees are ethereal, ghostly beings who can phase through blocks and use their terrifying wails to deal area damage. They feed on the moonlight and cannot regain hunger from food."
+      "text": "Банши — это эфирные, призрачные существа, которые могут проходить сквозь блоки и использовать свои ужасающие вопли для нанесения уронов по области. Они питаются лунным светом и не могут восстанавливать голод с помощью еды."
     },
     {
       "type": "patchouli:text",
-      "text": "With their weakened health and inability to trade, they are often feared and avoided. Banshees deal strong curses and use their haunting presence to wreak havoc on those who dare enter their domain."
+      "text": "Из-за их ослабленного здоровья и неспособности торговать, они часто вызывают страх и избегаются. Банши накладывают сильные проклятия и используют своё жуткое присутствие, чтобы сеять хаос среди тех, кто осмелится войти в их владения."
     }
   ]
 }

@@ -16,7 +16,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import ru.lemoncraft.thalrathis.Thalrathis;
 import net.minecraftforge.registries.*;
 
+import ru.lemoncraft.thalrathis.common.block.ModBlocks;
 import ru.lemoncraft.thalrathis.common.item.armor.*;
+import ru.lemoncraft.thalrathis.common.item.custom.*;
 import ru.lemoncraft.thalrathis.common.item.shard.*;
 import ru.lemoncraft.thalrathis.common.item.tools.*;
 import ru.lemoncraft.thalrathis.util.*;
@@ -26,12 +28,22 @@ import java.util.function.*;
 
 
 public class ItemRegistry {
-    private static final DeferredRegister<Item> ITEMS =
+    public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Thalrathis.MODID);
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
+
+    // Chibi :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    public static final RegistryObject<Item> CHIBI_BISHEPP_ITEM = ITEMS.register("chibi_bishepp",
+            () -> new ChibiBisheppBlockItem(ModBlocks.CHIBI_BISHEPP.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> CHIBI_MRKILLERS_ITEM = ITEMS.register("chibi_mrkillers",
+            () -> new ChibiMrKillersBlockItem(ModBlocks.CHIBI_MRKILLERS.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> CHIBI_LEMON_ITEM = ITEMS.register("chibi_lemon",
+            () -> new ChibiLemonBlockItem(ModBlocks.CHIBI_LEMON.get(), new Item.Properties()));
 
     // Materials::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     private static Supplier<? extends net.minecraft.world.item.Item> Item;
@@ -125,117 +137,117 @@ public class ItemRegistry {
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER1 = ITEMS.register("fire_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.FIRE_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER2 = ITEMS.register("ice_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.ICE_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER3 = ITEMS.register("lightning_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER4 = ITEMS.register("holy_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.HOLY_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER5 = ITEMS.register("ender_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.ENDER_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER6 = ITEMS.register("nature_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.NATURE_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER7 = ITEMS.register("blood_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.BLOOD_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER8 = ITEMS.register("eldritch_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.ELDRITCH_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
     public static final RegistryObject<Item> SPELLBOOK_PLACEHOLDER9 = ITEMS.register("evocation_spell_book", () -> {
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(AttributeRegistry.EVOCATION_SPELL_POWER.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 2.0,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.CAST_TIME_REDUCTION.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", .08,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 0.1,
                         AttributeModifier.Operation.MULTIPLY_BASE));
         builder.put(AttributeRegistry.MAX_MANA.get(),
-                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 200,
+                new AttributeModifier(UUID.fromString("667ad88f-901d-4691-b2a2-3664e42026d3"), "Weapon modifier", 500,
                         AttributeModifier.Operation.ADDITION));
         return new SimpleAttributeSpellBook(15, SpellRarity.LEGENDARY, builder.build());});
 
@@ -290,52 +302,52 @@ public class ItemRegistry {
     public static final RegistryObject<Item> DRAGON_PRIEST_STAFF = ITEMS.register("dragon_priest_staff",
             () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 50, -3,
                     Map.of(AttributeRegistry.FIRE_SPELL_POWER.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", .10,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", .5,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.ICE_SPELL_POWER.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.10,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.5,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.10,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.5,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.10,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.1,
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> FIRE_DRAGON_PRIEST_STAFF = ITEMS.register("crimson_dragon_priest_staff",
             () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(AttributeRegistry.FIRE_SPELL_POWER.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 1.0,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.20,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.1,
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> ICE_DRAGON_PRIEST_STAFF = ITEMS.register("silver_dragon_priest_staff",
             () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(AttributeRegistry.ICE_SPELL_POWER.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 1.0,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.20,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.1,
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> LIGHTNING_DRAGON_PRIEST_STAFF = ITEMS.register("thunderous_dragon_priest_staff",
             () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(AttributeRegistry.LIGHTNING_SPELL_POWER.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 1.0,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.20,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.1,
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     public static final RegistryObject<Item> AIR_STAFF = ITEMS.register("air_staff",
             () -> new StaffItem(ItemPropertiesHelper.equipment().stacksTo(1).rarity(Rarity.EPIC), 60, -3,
                     Map.of(TAttributeRegistry.WIND_SPELL_POWER.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.25,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 1.0,
                                     AttributeModifier.Operation.MULTIPLY_BASE),
                             AttributeRegistry.COOLDOWN_REDUCTION.get(),
-                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.20,
+                            new AttributeModifier(UUID.fromString("4c3d32f7-a3ce-413d-b797-85416731ebc8"), "Weapon modifier", 0.1,
                                     AttributeModifier.Operation.MULTIPLY_BASE))));
 
     // Weapons::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

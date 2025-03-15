@@ -1,15 +1,15 @@
 {
-  "name": "Goblins",
+  "name": "Гоблины",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Greedy and cunning, Goblins are creatures of gold. They receive bonuses when wearing golden armor and using golden tools, which also have enhanced durability in their hands. Despite their affinity for gold, they suffer from low health and increased damage from all sources."
+      "text": "Жадные и хитрые, гоблины — существа золота. Они получают бонусы при ношении золотой брони и использовании золотых инструментов, которые также имеют улучшенную прочность в их руках. Несмотря на их привязанность к золоту, они страдают от низкого здоровья и увеличенного урона от всех источников."
     },
     {
       "type": "patchouli:text",
-      "text": "Their small size and quick reflexes make them excellent at escaping combat, but their frailty often leaves them vulnerable in direct confrontations."
+      "text": "Их маленький размер и быстрые рефлексы делают их отличными в уклонении от боевых столкновений, но их хрупкость часто оставляет их уязвимыми в прямых противостояниях."
     }
   ]
 }

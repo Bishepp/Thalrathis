@@ -1,19 +1,19 @@
 {
-  "name": "Illagers",
+  "name": "Антимаги",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Illagers are a twisted and malevolent offshoot of humanity, once scholars and sages who sought knowledge beyond the veil of Thalrathis. Their hunger for forbidden lore led them to the school of Nihility, where they delved into the dark arts of nothingness and entropy."
+      "text": "Антимаги — это извращенная и злая ветвь человечества, когда-то бывшие учеными и мудрецами, стремившимися к знаниям за пределами Талразиса. Их жажда запретных знаний привела их к школе Небытия, где они погрузились в темные искусства пустоты и энтропии."
     },
     {
       "type": "patchouli:text",
-      "text": "They are now exiles, cast out by the other races for their cruel and destructive ways. The Illagers' dark magic erodes reality itself,leaving behind only emptiness. They are eternal enemies of the villages, seeking to destroy the structures of civilization and plunge the world into darkness."
+      "text": "Теперь они — изгнанники, изгнанные другими расами за свои жестокие и разрушительные методы. Темная магия Антимагов разъедает саму реальность, оставляя лишь пустоту. Они — вечные враги деревень, стремящиеся разрушить строения цивилизации и погрузить мир в темноту."
     },
     {
       "type": "patchouli:text",
-      "text": "The Illagers are the ultimate practitioners of Nihility, using their mastery of void magic to manipulate the fabric of reality, cause decay, and undo creation itself. They are the antithesis to the other magic schools, seeking to bring an end to all things, including magic."
+      "text": "Антимаги — это высшие практики Небытия, использующие свое мастерство в магии пустоты для манипуляции тканью реальности, вызывая разрушение и аннигилируя саму сущность бытия. Они — антиподы других магических школ, стремящиеся положить конец всем вещам, включая магию."
     }
   ]
 }

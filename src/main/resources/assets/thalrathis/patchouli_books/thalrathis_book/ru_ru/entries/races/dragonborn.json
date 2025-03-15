@@ -1,19 +1,19 @@
 {
-  "name": "Dragonborn",
+  "name": "Драконорожденные",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Dragonborn are a majestic and fearsome race, a unique fusion of dragonkind and humanity. Their ancestors once served as guardians to the most powerful dragons of Thalrathis, and their bloodlines carry the strength of the dragons within them. Their scales glisten with an iridescent hue, and their eyes glow with an otherworldly light."
+      "text": "Драконорожденные — величественная и устрашающая раса, уникальное сочетание драконов и человечества. Их предки когда-то служили стражами самых могущественных драконов Талразиса, и их родословные несут в себе силу драконов. Их чешуя сверкает иридесцентным оттенком, а глаза светятся неземным светом."
     },
     {
       "type": "patchouli:text",
-      "text": "Dragonborn often find themselves at odds with other races due to their towering presence and prideful nature, but they are also among the most honorable beings, bound by ancient oaths to protect the world. Their connection to the Ender Dragon makes them natural practitioners of the Tenebris and Obscurum magic schools. Their ancestry grants them the ability to control the powers of dragons,"
+      "text": "Драконорожденные часто оказываются в конфликте с другими расами из-за своего величественного присутствия и гордого характера, но они также являются одними из самых благородных существ, связанными древними клятвами защищать мир. Их связь с Эндер Драконом делает их естественными носителями магии Тенебрис и Обскурум. Их предки даруют им способность контролировать силы драконов,"
     },
     {
       "type": "patchouli:text",
-      "text": "allowing them to manipulate shadowy forces and create rifts in reality. Their ties to Flamara also run deep, as many of their kin breathe fire with the intensity of a dragon’s breath."
+      "text": "позволяя манипулировать тенистыми силами и создавать разрывы в реальности. Их связи с магией Фламары также глубоки, так как многие из их рода могут извергать огонь с интенсивностью драконьего дыхания."
     }
   ]
 }

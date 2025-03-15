@@ -1,15 +1,15 @@
 {
-  "name": "Incubuses",
+  "name": "Инкубы",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Incubuses are dark and malevolent beings of the netherworld. They thrive in the fiery depths of the Nether, immune to fire damage. They can breathe fire and harness their health to temporarily increase their strength. However, they are vulnerable to water and take more damage from weapons with the \"Heaven's Wrath\" enchantment."
+      "text": "Инкубы — это темные и зловещие существа из Нижнего мира. Они процветают в огненных глубинах Нижнего мира, невосприимчивы к огненным повреждениям. Они могут дышать огнем и использовать свою жизненную силу, чтобы временно увеличить свою мощь. Однако они уязвимы к воде и получают больше урона от оружия с зачарованием \"Небесная кара\"."
     },
     {
       "type": "patchouli:text",
-      "text": "Their dark nature and fire-breathing abilities make them fierce opponents, but their weaknesses to certain elements make them vulnerable in specific environments."
+      "text": "Их темная природа и способность дышать огнем делают их жестокими противниками, но их слабости к определенным элементам делают их уязвимыми в специфических условиях."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "name": "Revenants",
+  "name": "Ревенанты",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Revenants are the restless spirits of the deceased, cursed to wander the world. They have a unique ability to summon the dead to fight for them."
+      "text": "Ревенанты — это беспокойные духи умерших, проклятые блуждать по миру. У них есть уникальная способность призывать мертвых, чтобы они сражались за них."
     },
     {
       "type": "patchouli:text",
-      "text": "With the ability to regenerate health slowly and heal when nearby enemies die, they are dangerous entities that feed off the death of others. However, they are weak against divine light and holy magic."
+      "text": "Обладая способностью медленно восстанавливать здоровье и исцеляться, когда рядом умирают враги, они представляют собой опасные сущности, питающиеся смертью других. Однако они слабы против божественного света и святой магии."
     }
   ]
 }

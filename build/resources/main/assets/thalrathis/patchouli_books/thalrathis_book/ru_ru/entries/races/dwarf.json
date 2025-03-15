@@ -1,15 +1,15 @@
 {
-  "name": "Dwarves",
+  "name": "Гномы",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Dwarves are sturdy, short creatures known for their affinity with the earth. They can mine without a pickaxe and excel at digging ores and blocks faster than any other race. Their ability to pass through tight spaces and see in the dark gives them an advantage in underground environments."
+      "text": "Гномы — это крепкие, короткие существа, известные своей связью с землёй. Они могут добывать руду без кирки и превосходят другие расы в добыче руды и блоков, делая это быстрее всех. Их способность проходить через узкие пространства и видеть в темноте даёт им преимущество в подземных условиях."
     },
     {
       "type": "patchouli:text",
-      "text": "However, the sun blinds them, and they drown quickly in water. Their strength and resilience underground make them excellent miners, though they must be cautious above ground."
+      "text": "Однако солнце ослепляет их, а в воде они быстро тонут. Их сила и выносливость в подземельях делают их отличными шахтёрами, хотя они должны быть осторожными на поверхности."
     }
   ]
 }

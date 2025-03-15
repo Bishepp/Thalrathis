@@ -1,15 +1,15 @@
 {
-  "name": "Yetis",
+  "name": "Йети",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Yetis are hulking, fur-covered creatures that roam the coldest parts of Thalrathis. They can freeze their targets and are particularly fast in cold biomes. With increased health and immunity to fall damage in these frigid environments, they are incredibly resilient."
+      "text": "Йети — это могучие существа, покрытые шерстью, которые обитают в самых холодных уголках Талратиса. Они могут замораживать свои цели и особенно быстры в холодных биомах. С увеличенным здоровьем и иммунитетом к урону от падений в этих морозных условиях они невероятно выносливы."
     },
     {
       "type": "patchouli:text",
-      "text": "However, they are vulnerable to fire and suffer from various limitations when traversing desert biomes. Yetis are strong and hardy, but their weaknesses to heat make them wary of hotter regions."
+      "text": "Однако они уязвимы к огню и испытывают трудности при пересечении пустынных биомов. Йети сильны и выносливы, но их слабости к жаре заставляют их настороженно относиться к более горячим регионам."
     }
   ]
 }

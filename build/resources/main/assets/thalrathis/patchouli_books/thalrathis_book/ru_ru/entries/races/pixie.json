@@ -1,15 +1,15 @@
 {
-  "name": "Pixies",
+  "name": "Пикси",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Pixies are small, winged beings with a mischievous nature. They can fly, but their wings require rest from time to time. With a tiny frame, they are nearly invisible to most, able to sit on the heads of larger creatures."
+      "text": "Пикси — маленькие крылатые существа с озорным характером. Они могут летать, но их крылья нуждаются в отдыхе время от времени. Благодаря своей крошечной фигуре, они почти невидимы для большинства существ и могут сидеть на головах более крупных существ."
     },
     {
       "type": "patchouli:text",
-      "text": "Their ability to gather treasures from ores adds a layer of utility to their trickster qualities. However, their low health and limited armor options make them frail, and they cannot trade with villagers. Their small size and ability to fly make them both elusive and vulnerable."
+      "text": "Их способность собирать сокровища из руд добавляет утилитарную ценность их шутливым качествам. Однако их низкое здоровье и ограниченные возможности для ношения брони делают их хрупкими, и они не могут торговать с жителями. Их малый размер и способность летать делают их как ускользающими, так и уязвимыми."
     }
   ]
 }

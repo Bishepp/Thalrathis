@@ -1,15 +1,15 @@
 {
-  "name": "Phantoms",
+  "name": "Фантомы",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Phantoms are invisible, fleeting beings that move with great speed and stealth. They can phase through walls and travel short distances through the air. Their health is low, but their ability to evade and attack quickly makes them deadly in ambushes. "
+      "text": "Фантомы — это невидимые, мимолетные существа, которые движутся с большой скоростью и скрытностью. Они могут проходить через стены и перемещаться на короткие расстояния по воздуху. Их здоровье низкое, но их способность избегать атак и быстро нападать делает их смертельно опасными при засадах."
     },
     {
       "type": "patchouli:text",
-      "text": "However, they are extremely vulnerable to light, which can expose them, rendering them defenseless. Phantoms are excellent for surprise tactics but must be cautious of well-lit areas."
+      "text": "Однако они крайне уязвимы к свету, который может их раскрыть, делая их беззащитными. Фантомы отличны для тактики неожиданности, но должны быть осторожны в хорошо освещенных местах."
     }
   ]
 }

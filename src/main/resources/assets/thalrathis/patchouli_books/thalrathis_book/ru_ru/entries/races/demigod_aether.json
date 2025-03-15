@@ -1,19 +1,19 @@
 {
-  "name": "Aether Demigods",
+  "name": "Полубоги Эфира",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Born from the very essence of light and radiance, the Aether Demigods are the children of the celestial realms. Their appearance is ethereal, with luminous skin and eyes that shine with the power of the stars. They are said to be blessed by the gods of light, chosen to bring hope and clarity to the world."
+      "text": "Рожденные из самой сущности света и сияния, Полубоги Эфира — это дети небесных царств. Их внешний вид эфемерен, с светящейся кожей и глазами, которые сияют силой звезд. Говорят, что они благословлены богами света, избраны для того, чтобы приносить надежду и ясность в мир."
     },
     {
       "type": "patchouli:text",
-      "text": "Their mere presence can lift the spirits of those around them, and their powers can purify the most corrupted of souls. Though their hearts are filled with light, they are burdened with the knowledge that their power is also a weapon, one that can bring both salvation and destruction. The Demigod Aether are natural practitioners of Luminus magic."
+      "text": "Их присутствие способно поднять дух тех, кто рядом, а их силы могут очищать самые коррумпированные души. Хотя их сердца наполнены светом, они несут бремя знания о том, что их сила также является оружием, которое может принести как спасение, так и разрушение. Полубоги Эфира — естественные практики магии Люминус."
     },
     {
       "type": "patchouli:text",
-      "text": "Their connection to the celestial bodies grants them the power to command light, heal the wounded, and banish darkness. They also have an affinity with Vocaris, using their powers to summon pure, radiant energies to protect the innocent and smite the wicked."
+      "text": "Их связь с небесными телами дает им возможность управлять светом, исцелять раненых и изгонять тьму. Они также имеют связь с Вокарис, используя свои силы, чтобы призывать чистые, сияющие энергии для защиты невинных и наказания злых."
     }
   ]
 }

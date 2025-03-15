@@ -1,15 +1,15 @@
 {
-  "name": "Arachnomorphs",
+  "name": "Паукообразные",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Arachnomorphs are twisted beings with spider-like traits. They have abilities similar to Arachnids but with additional features, such as the ability to poison enemies on contact and slow them down with an active ability."
+      "text": "Паукообразные — это извращённые существа с чертами пауков. Они обладают способностями, схожими с паучьими, но с дополнительными особенностями, такими как способность отравлять врагов при контакте и замедлять их с помощью активной способности."
     },
     {
       "type": "patchouli:text",
-      "text": "They have a reduced health pool and cannot wear armor stronger than iron, but their affinity for webs and their ability to slow down opponents make them fearsome in battle. They are more agile than most and are often used as stealthy assassins or scouts."
+      "text": "У них уменьшен запас здоровья, и они не могут носить броню, сильнее железной, но их связь с паутиной и способность замедлять противников делают их страшными в бою. Они более ловкие, чем большинство, и часто используются как скрытные убийцы или разведчики."
     }
   ]
 }

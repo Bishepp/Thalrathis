@@ -22,7 +22,6 @@ import org.jetbrains.annotations.NotNull;
 import ru.lemoncraft.thalrathis.common.block.ModBlocks;
 import ru.lemoncraft.thalrathis.common.block.entity.ModBlockEntities;
 import ru.lemoncraft.thalrathis.common.block.entity.client.*;
-import ru.lemoncraft.thalrathis.common.item.ModItems;
 import ru.lemoncraft.thalrathis.registry.*;
 
 import org.slf4j.*;
@@ -46,7 +45,6 @@ public class Thalrathis {
         CreativeTabRegistry.register(modEventBus);
 
         ModBlocks.register(modEventBus);
-        ModItems.register(modEventBus);
         ModBlockEntities.register(modEventBus);
 
         GeckoLib.initialize();

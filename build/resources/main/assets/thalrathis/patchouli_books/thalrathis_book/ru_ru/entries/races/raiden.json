@@ -1,19 +1,19 @@
 {
-  "name": "Raidens",
+  "name": "Райдены",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Raidens are descendants of an ancient lineage of samurai who have since evolved into masters of lightning and storm. With lightning coursing through their veins, they are seen as living storms, their swords crackling with electric energy."
+      "text": "Райдены — это потомки древнего рода самураев, которые с тех пор стали мастерами молнии и бури. С молниями, пронизывающими их вены, их называют живыми бурями, а их мечи искрятся электрической энергией."
     },
     {
       "type": "patchouli:text",
-      "text": "They live by an ancient code of honor and discipline, sworn to protect Thalrathis from any who would bring chaos. Their villages are hidden among the mountain peaks where the storms rage the strongest, and it is said that their ancestors once forged their weapons by channeling the raw power of thunderstorms."
+      "text": "Они живут по древнему кодексу чести и дисциплины, поклявшись защищать Талразис от тех, кто принесет хаос. Их деревни скрыты среди горных вершин, где бури бушуют наиболее сильно, и говорят, что их предки когда-то ковали оружие, направляя мощь гроз."
     },
     {
       "type": "patchouli:text",
-      "text": "The Raidens are intrinsically linked to Fulgaris. Their connection to the storm is not just physical but spiritual, with each Raiden able to channel powerful bolts of lightning from the heavens. They are also adept in the ancient art of Vocaris, using their mastery of elemental forces to summon and control the energies of the world around them."
+      "text": "Райдены неразрывно связаны с Фульгарис. Их связь с бурей не только физическая, но и духовная, ведь каждый Райден может направить мощные молнии с небес. Они также искусны в древнем искусстве Вокариса, используя свое мастерство в управлении элементарными силами для призыва и контроля энергий окружающего мира."
     }
   ]
 }

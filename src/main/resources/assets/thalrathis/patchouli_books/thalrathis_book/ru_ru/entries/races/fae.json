@@ -1,15 +1,15 @@
 {
-  "name": "Fairies",
+  "name": "Феи",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Fairies are small, winged creatures that levitate and resist magical damage. They are delicate, able to regenerate health when near water, but they cannot wear iron or silver armor. With their ability to regenerate and their resistance to magic, they make formidable allies in certain situations,"
+      "text": "Феи — маленькие крылатые существа, которые левитируют и сопротивляются магическому урону. Они хрупки, могут восстанавливать здоровье, находясь рядом с водой, но не могут носить броню из железа или серебра. Благодаря своей способности к регенерации и сопротивлению магии, они становятся грозными союзниками в некоторых ситуациях."
     },
     {
       "type": "patchouli:text",
-      "text": "though their inability to wear strong armor and their small size limit their combat prowess."
+      "text": "Однако их неспособность носить мощную броню и маленький размер ограничивают их боевые способности."
     }
   ]
 }

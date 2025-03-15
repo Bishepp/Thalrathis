@@ -1,15 +1,15 @@
 {
-  "name": "Hellborn",
+  "name": "Огнерожденные",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Hellborn are related to Incubuses but possess unique abilities of their own. Immune to fire, poison, and hunger, they thrive in the heat of flames, gaining power from fire. They deal more damage when in fire but are vulnerable to water, which can harm them."
+      "text": "Огнерожденные связаны с Инкубами, но обладают уникальными способностями. Они не уязвимы к огню, ядам и голоду, процветая в жаре пламени, получая силу от огня. Они наносят больший урон, находясь в огне, но уязвимы к воде, которая может их повредить."
     },
     {
       "type": "patchouli:text",
-      "text": "Hellborn are powerful and dangerous, yet their vulnerabilities make them a race of contrasts."
+      "text": "Огнерожденные мощные и опасные, но их уязвимости делают их расой контрастов."
     }
   ]
 }

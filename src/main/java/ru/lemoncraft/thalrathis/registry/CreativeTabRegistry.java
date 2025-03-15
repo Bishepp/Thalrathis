@@ -10,8 +10,6 @@ import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
 import net.minecraftforge.registries.*;
 import ru.lemoncraft.thalrathis.Thalrathis;
-import ru.lemoncraft.thalrathis.common.block.ModBlocks;
-import ru.lemoncraft.thalrathis.common.item.ModItems;
 
 import static io.redspace.ironsspellbooks.registries.CreativeTabRegistry.SCROLLS_TAB;
 
@@ -130,9 +128,9 @@ public class CreativeTabRegistry {
 
                 entries.accept(ItemRegistry.PREDATOR_PICKAXE.get());
 
-                entries.accept(ModItems.CHIBI_BISHEPP_ITEM.get());
-                entries.accept(ModItems.CHIBI_MRKILLERS_ITEM.get());
-                entries.accept(ModItems.CHIBI_LEMON_ITEM.get());
+                entries.accept(ItemRegistry.CHIBI_BISHEPP_ITEM.get());
+                entries.accept(ItemRegistry.CHIBI_MRKILLERS_ITEM.get());
+                entries.accept(ItemRegistry.CHIBI_LEMON_ITEM.get());
             })
             .withTabsBefore(ARMOR_TAB.getKey())
             .build());

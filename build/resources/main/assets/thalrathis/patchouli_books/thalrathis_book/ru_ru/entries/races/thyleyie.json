@@ -1,19 +1,19 @@
 {
-  "name": "Thyle-Yie",
+  "name": "Тиль-Йи",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Thyle-Yie are a nearly forgotten race, older than the gods themselves. They are the last remnants of a time when magic itself was still taking shape. Their civilization flourished long ago, before the rise of the schools of magic, and their understanding of magic was unparalleled."
+      "text": "Тиль-Йи — это почти забытая раса, старше самих богов. Они — последние остатки времени, когда магия только начинала принимать свою форму. Их цивилизация процветала давно, до возникновения школ магии, и их понимание магии было непревзойденным."
     },
     {
       "type": "patchouli:text",
-      "text": "However, their pursuit of perfection and ultimate knowledge led them to the Finality magic school, a school that mastered all the magic elements and energy, to understand the origin and the end of time and existence. Now, they wander the world as philosophers, their once-great empire lost to history."
+      "text": "Однако их стремление к совершенству и абсолютному знанию привело их к школе магии Завершённости, школе, которая овладела всеми магическими элементами и энергиями, чтобы понять происхождение и конец времени и бытия. Теперь они блуждают по миру как философы, а их когда-то великая империя утрачена в истории."
     },
     {
       "type": "patchouli:text",
-      "text": "The Thyle-Yie are the devoted practitioners of Finality, seeking to understand the essence of closure and the inevitable end of all things. Their connection to time and the universe itself allows them to manipulate fate, causing things to either cease to exist or fade into oblivion."
+      "text": "Тиль-Йи — преданные практики Завершённости, стремящиеся понять суть появления и неизбежный конец всего сущего. Их связь с временем и самой вселенной позволяет им манипулировать судьбой, заставляя что-либо начинать своё существование, либо исчезать в забвении."
     }
   ]
 }

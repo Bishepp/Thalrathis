@@ -1,15 +1,15 @@
 {
-  "name": "Ogres",
+  "name": "Огры",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Ogres are enormous, brutish creatures known for their incredible strength. Their health and damage output are unmatched, making them terrifying opponents in battle. However, their lack of dexterity and reliance on brute force make them slow and vulnerable to ranged attacks."
+      "text": "Огры — это огромные, грубые существа, известные своей невероятной силой. Их здоровье и урон непревзойденны, что делает их ужасными противниками в бою. Однако их отсутствие ловкости и зависимость от грубой силы делают их медленными и уязвимыми для дальнобойных атак."
     },
     {
       "type": "patchouli:text",
-      "text": "Ogres are a force to be reckoned with in close combat, but their size and lack of agility leave them open to swift strikes."
+      "text": "Огры — сила, с которой нужно считаться в ближнем бою, но их размер и отсутствие ловкости оставляют их уязвимыми для быстрых ударов."
     }
   ]
 }

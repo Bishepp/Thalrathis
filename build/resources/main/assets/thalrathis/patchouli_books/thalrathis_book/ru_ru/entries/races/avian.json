@@ -1,15 +1,15 @@
 {
-  "name": "Avians",
+  "name": "Авианы",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Avians are a race of winged beings, known for their unparalleled speed and agility. With the ability to glide through the air and slow their falls, they make perfect scouts and messengers. Each morning, they lay an egg, a strange custom that ties them to their mysterious origins."
+      "text": "Авианы — это раса крылатых существ, известных своей непревзойдённой скоростью и ловкостью. Обладая способностью парить в воздухе и замедлять своё падение, они становятся отличными разведчиками и курьерами. Каждое утро они откладывают яйцо, странный обычай, который связывает их с их загадочным происхождением."
     },
     {
       "type": "patchouli:text",
-      "text": "However, they face the challenge of needing to sleep at higher altitudes, making their rest difficult in certain places. Avians are swift, but their grounded weaknesses make them vulnerable in battle."
+      "text": "Однако им приходится сталкиваться с проблемой необходимости спать на больших высотах, что делает их отдых трудным в некоторых местах. Авианы быстры, но их слабости на земле делают их уязвимыми в бою."
     }
   ]
 }

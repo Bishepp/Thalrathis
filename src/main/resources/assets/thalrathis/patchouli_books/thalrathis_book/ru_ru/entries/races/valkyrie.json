@@ -1,15 +1,15 @@
 {
-  "name": "Valkyries",
+  "name": "Валькирии",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Valkyries are majestic, winged warriors, known for their prowess in combat. Their large wings grant them the ability to soar through the skies, acting like elytra. Their strength lies in their aerial abilities and their unique combat style, where each third attack deals extra area damage."
+      "text": "Валькирии — это величественные крылатые воины, известные своей боевой доблестью. Их большие крылья дают им возможность парить в небе, действуя как элитры. Их сила заключается в их воздушных способностях и уникальном стиле боя, где каждая третья атака наносит дополнительный урон по области."
     },
     {
       "type": "patchouli:text",
-      "text": "Their wings allow them to avoid fall damage, but they are vulnerable to undead creatures, which slow them down and weaken them when nearby. Valkyries combine grace and power, but their weakness to the undead is a notable challenge."
+      "text": "Их крылья позволяют им избегать урона от падения, но они уязвимы для нежити, которая замедляет их и ослабляет, находясь рядом. Валькирии объединяют грацию и силу, но их слабость перед нежитью является заметной проблемой."
     }
   ]
 }

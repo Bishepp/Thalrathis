@@ -1,15 +1,15 @@
 {
-  "name": "High Elves",
+  "name": "Высшие Эльфы",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "High Elves are the magicians and scholars of the world. With a greater mana pool and the ability to regenerate it quickly, they excel at using magic. Their high intelligence and magical affinity allow them to deal more damage with spells,"
+      "text": "Высшие Эльфы — маги и ученые мира. С большим запасом маны и способностью быстро восстанавливать её, они преуспевают в использовании магии. Их высокая интеллектуальность и магическая склонность позволяют им наносить больший урон заклинаниями,"
     },
     {
       "type": "patchouli:text",
-      "text": "but their health is lower than most races. They cannot wear heavy armor freely, and doing so slows them down. High Elves are among the most powerful spellcasters in Thalrathis, but their fragile bodies require protection."
+      "text": "но их здоровье ниже, чем у большинства рас. Они не могут свободно носить тяжёлую броню, и её ношение замедляет их. Высшие Эльфы — одни из самых могущественных магов Талразиса, но их хрупкие тела требуют защиты."
     }
   ]
 }

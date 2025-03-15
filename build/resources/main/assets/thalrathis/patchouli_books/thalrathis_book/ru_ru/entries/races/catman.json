@@ -1,15 +1,15 @@
 {
-  "name": "Catmen",
+  "name": "Котолюди",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Catmen are agile, quick, and have the grace of a feline. They never take fall damage and can leap higher than any other race. While they have slightly less health than humans, their dexterity and ability to evade damage in many situations make them a formidable force."
+      "text": "Котолюди — это ловкие, быстрые существа с грацией кошки. Они не получают урона от падений и могут прыгать выше, чем любая другая раса. Несмотря на то, что их здоровье немного меньше, чем у людей, их ловкость и способность уклоняться от урона в различных ситуациях делают их грозной силой."
     },
     {
       "type": "patchouli:text",
-      "text": "They also have the ability to repel creepers and possess enhanced vision in the dark, making them ideal for night exploration. However, they can't mine stone or ores without special potions."
+      "text": "Также они могут отталкивать криперов и обладают улучшенным зрением в темноте, что делает их идеальными для ночных исследований. Однако они не могут добывать камень или руды без специальных зелий."
     }
   ]
 }

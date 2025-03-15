@@ -1,19 +1,19 @@
 {
-  "name": "Onis",
+  "name": "Они",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Oni are ancient warriors, born from the deepest pits of war and suffering. Their bloodlust is unmatched, and their ability to channel the blood of their enemies into devastating powers has made them feared across Thalrathis. Their strength comes from the blood they spill; the more they bleed, the stronger they become."
+      "text": "Они — это древние воины, рожденные из самых глубоких ям войны и страха. Их жажда крови не имеет равных, и их способность направлять кровь своих врагов в разрушительные силы сделала их страшными по всей Талратисе. Их сила исходит от пролитой крови; чем больше они проливают, тем сильнее становятся."
     },
     {
       "type": "patchouli:text",
-      "text": "They are often seen wielding colossal weapons, tainted by the blood they’ve harvested. The Onis have a deep connection with Sanguis Magic. Their mastery of blood manipulation allows them to harness the life force of others to increase their own power, or to use it as a weapon. In battle, their ability to \"bleed\" their enemies for power makes them formidable opponents."
+      "text": "Часто их можно увидеть с колоссальными оружиями, пропитанными кровью, которую они собрали. Они имеют глубокую связь с магией Сангвиса. Их мастерство в манипуляции кровью позволяет им использовать жизненную силу других, чтобы усилить свою собственную силу или использовать её как оружие. В бою их способность «проливать» кровь своих врагов для усиления делает их грозными противниками."
     },
     {
       "type": "patchouli:text",
-      "text": "Oni can also feel a faint connection to Fulgaris (Lightning) magic due to their explosive bursts of power when enraged."
+      "text": "Они также могут чувствовать слабую связь с магией Фульгариса (Молнии) из-за своих взрывных всплесков силы, когда они в ярости."
     }
   ]
 }

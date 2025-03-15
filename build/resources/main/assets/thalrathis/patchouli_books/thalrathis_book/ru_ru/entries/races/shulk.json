@@ -1,15 +1,15 @@
 {
-  "name": "Shulks",
+  "name": "Шалки",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Shulks are a sturdy race, known for their exceptional armor capabilities and the unique ability to store items after their death in 9 extra inventory slots. They can break stone with their bare hands, making them useful miners and builders."
+      "text": "Шалки — это выносливый народ, известный своими исключительными способностями к броне и уникальной способностью хранить предметы после своей смерти в 9 дополнительных слотах инвентаря. Они могут ломать камень голыми руками, что делает их полезными шахтерами и строителями."
     },
     {
       "type": "patchouli:text",
-      "text": "However, they cannot use shields and suffer from hunger faster than other races.Their endurance and strength are admirable, but their reliance on food and the inability to protect themselves with shields can lead to challenges in certain situations."
+      "text": "Однако они не могут использовать щиты и страдают от голода быстрее, чем другие расы. Их выносливость и сила достойны уважения, но их зависимость от пищи и неспособность защищаться с помощью щитов могут привести к трудностям в определенных ситуациях."
     }
   ]
 }

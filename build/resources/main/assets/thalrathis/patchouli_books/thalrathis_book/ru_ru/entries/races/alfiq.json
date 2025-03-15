@@ -1,15 +1,15 @@
 {
-  "name": "Alfiqs",
+  "name": "Альфики",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Alfiqs are nimble, swift, and strong in hand-to-hand combat. Their bonus to melee damage and movement speed makes them excellent warriors, but their inability to wear heavy armor and their reduced digging and weapon damage skills are their main drawbacks."
+      "text": "Альфики ловки, быстры и сильны в рукопашном бою. Их бонус к урону в ближнем бою и скорости передвижения делает их отличными воинами, но их неспособность носить тяжёлую броню и уменьшенные навыки копания и урона оружием — их основные недостатки."
     },
     {
       "type": "patchouli:text",
-      "text": "They share a unique connection with the natural world, and their relationship with creepers is especially intriguing—creepers fear the Alfiqs and will only detonate if they’re provoked."
+      "text": "Они имеют уникальную связь с природным миром, а их отношение к криперам особенно интересно — криперы боятся альфиков и взрываются только если их спровоцировать."
     }
   ]
 }

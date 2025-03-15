@@ -1,15 +1,15 @@
 {
-  "name": "Enderians",
+  "name": "Эндерианцы",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Enderians possess abilities similar to the Endermen. They can teleport and are immune to the damage usually caused by Ender Pearls. Their long arms allow them to reach distant blocks, but they are afraid of pumpkins."
+      "text": "Эндерианцы обладают способностями, схожими с эндерменами. Они могут телепортироваться и не получают урона от жемчужин края. Их длинные руки позволяют доставать далёкие от владельца блоки, но они боятся тыкв."
     },
     {
       "type": "patchouli:text",
-      "text": "Enderians are powerful beings in their own right, but their aversion to water and fear of pumpkins can leave them at a disadvantage in certain circumstances."
+      "text": "Эндерианцы — мощные существа, но их отвращение к воде и страх перед тыквами могут поставить их в невыгодное положение в некоторых ситуациях."
     }
   ]
 }

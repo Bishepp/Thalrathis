@@ -1,15 +1,15 @@
 {
-  "name": "Sirens",
+  "name": "Сирены",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Sirens are aquatic creatures with the power to breathe underwater and swim at incredible speeds. They can see clearly beneath the surface and are unhindered by the usual constraints of underwater movement. Their active ability allows them to disarm enemies, rendering them temporarily unable to attack."
+      "text": "Сирены — это водные существа с возможностью дышать под водой и плавать с невероятной скоростью. Они могут ясно видеть под поверхностью и не ограничены обычными трудностями подводного движения. Их активная способность позволяет им разоружать врагов, временно лишая их способности атаковать."
     },
     {
       "type": "patchouli:text",
-      "text": "Sirens regenerate health faster while submerged, but they are helpless on land, unable to heal and taking immense damage from fire. Despite these limitations, they remain an asset in any underwater venture."
+      "text": "Сирены восстанавливают здоровье быстрее, находясь под водой, но беспомощны на суше, не могут исцеляться и получают огромный урон от огня. Несмотря на эти ограничения, они остаются ценными союзниками в любых подводных предприятиях."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "name": "Arachnids",
+  "name": "Арахниды",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Arachnids are creatures of the shadows, with the ability to scale walls and move freely along webs they spin themselves. They thrive in dark, isolated places, where they use their speed and agility to ambush prey."
+      "text": "Арахниды — это существа теней, обладающие способностью лазить по стенам и свободно двигаться по паутине, которую они плетут сами. Они процветают в тёмных, изолированных местах, где используют свою скорость и ловкость для засады на добычу."
     },
     {
       "type": "patchouli:text",
-      "text": "Their weakness lies in their reduced health, and their vulnerability to direct combat can be a challenge. However, their webs and wall-climbing abilities make them a unique and dangerous threat."
+      "text": "Их слабость заключается в сниженной выносливости, и их уязвимость в прямом бою может стать проблемой. Однако их паутины и способность лазить по стенам делают их уникальной и опасной угрозой."
     }
   ]
 }

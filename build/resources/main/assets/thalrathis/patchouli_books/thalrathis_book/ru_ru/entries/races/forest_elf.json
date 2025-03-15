@@ -1,15 +1,15 @@
 {
-  "name": "Forest Elves",
+  "name": "Лесные Эльфы",
   "icon": "thalrathis:unused/allium_apple",
   "category": "thalrathis:races",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Forest Elves are an ancient race deeply connected to the world’s natural magic. Gifted archers with an inherent speed in movement, they draw power from the earth itself. They thrive in harmony with the forests, living off the land and respecting the delicate balance of nature."
+      "text": "Лесные Эльфы — древний народ, глубоко связанный с природной магией мира. Они — одаренные лучники с природной быстротой в движении, черпающие силу от самой земли. Они процветают в гармонии с лесами, живя на земле и уважая хрупкое равновесие природы."
     },
     {
       "type": "patchouli:text",
-      "text": "While they excel in ranged combat, their physical strength and resilience are weaker compared to other races, and they tend to have lower health. The Forest Elves' wisdom in nature and magic is unmatched, and they defend their sacred woods fiercely."
+      "text": "Хотя они превосходны в дальнобойных атаках, их физическая сила и выносливость уступают другим расам, и обычно у них ниже уровень здоровья. Мудрость Лесных Эльфов в области природы и магии непревзойденна, и они яростно защищают свои священные леса."
     }
   ]
 }
